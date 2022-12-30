@@ -77,7 +77,7 @@ Phone:
 
 <summary><b><strong>Credits</strong></b></summary>
 
-- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made this repo```
+- [Icesito68](https://github.com/Icesito68) ```Made this repo```
 
 - [Renegade Project](https://github.com/edk2-porting) ```Making the core of this project```
 
