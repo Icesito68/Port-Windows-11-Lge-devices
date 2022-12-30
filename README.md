@@ -40,3 +40,33 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Light sensor
 - [ ] Magnetometer
 - [ ] Proximity
+
+## Guides and requirements
+
+<details> 
+<summary><strong>Required Tools/Files</strong></summary>
+
+Human:
+
+- Understand English, Spanish or Russian 
+
+- Understand how to use TWRP
+
+- Understand how to use CMD
+
+- Functioning brain
+
+PC:
+
+- [Windows on ARM image](https://uupdump.net/) (Windows 11 is recommended)
+
+- [platform-tools](https://developer.android.com/studio/releases/platform-tools).
+
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/)
+
+Phone:
+- [UEFI image](https://github.com/MollySophia/MU-sm8150pkg/releases/)
+
+- [Modified TWRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
+
+</details> 
