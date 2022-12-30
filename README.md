@@ -70,3 +70,21 @@ Phone:
 - [Modified TWRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
 
 </details> 
+
+## Contributors
+
+<details> 
+
+<summary><b><strong>Credits</strong></b></summary>
+
+- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made this repo```
+
+- [Renegade Project](https://github.com/edk2-porting) ```Making the core of this project```
+
+- [gus33000](https://github.com/gus33000) ```Providing help, also made base install guide, all of the original drivers and the msc script```
+
+- [Renegade Project Discord members](https://discord.gg/XXBWfag) ```Provided Help```
+
+- [MollySophia](https://github.com/MollySophia) ```Helped to fix battery status```
+
+</details>  
