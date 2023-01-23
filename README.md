@@ -22,7 +22,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Brightness
 - [ ] Camera
 - [ ] Charging ```In progress, working partially```
-- [ ] Display
+- [x] Display
 - [ ] FM
 - [x] GPU
 - [x] LTE ```Partial support```
@@ -35,7 +35,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 #### Sensors
 - [ ] Accelerometer
 - [ ] Fingerprint
-- [ ] GPS
+- [x] GPS
 - [ ] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer
@@ -67,7 +67,7 @@ PC:
 Phone:
 - [UEFI image](https://github.com/MollySophia/MU-sm8150pkg/releases/)
 
-- [Modified TWRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
+- [TWRP](https://t.me/LG_G8X_India)
 
 </details> 
 
