@@ -19,7 +19,7 @@ adb shell sh /sbin/msc.sh
 
 #### Arranca el administrador de discos de Windows
 
-> Cuando el X3 Pro sea detectado como un disco
+> Cuando el G8x sea detectado como un disco
 
 ```cmd
 diskpart
@@ -130,6 +130,8 @@ adb push <uefi.img> /external_sd
 
 ### Flashea la imagen uefi desde twrp.
 ve hasta la `uefi.img` y flashea en boot.
+
+### También puedes hacerlo con QFIL, instala el boot de android en la partición A (boot_a) y la uefi en la B (boot_b) y así podrás cambiar entre slots para iniciar android o windows 
 
 # volver a Android
 > usa tu backup de boot image desde twrp.
