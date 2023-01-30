@@ -5,13 +5,10 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 - Estos comandos han sido testeados.
 - Ignora las advertencias de `udevadm`
 - No ejecutes el mismo comando dos veces
-- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/winonvayu)
+- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA)
 
-#### Arranca en TWRP desde el PC con este comando
-```cmd
-fastboot boot <twrp.img>
-```
-> si tienes el TWRP instalado, solo presiona el botón de encendido y vol+ para iniciarlo
+#### Arranca en TWRP del dispositivo
+
 
 #### Desmonta todas las particiones
 Ve a mount en TWRP y desmonta todas las particiones
@@ -39,7 +36,7 @@ parted /dev/block/sda
 ```
 
 ### Borrar la partición `grow` 
->Para asegurarte de que la partición 31 es userdata puedes usar
+>Para asegurarte de que la partición 31 es grow puedes usar
 >  `print all`
 ```sh
 rm 31
@@ -55,7 +52,7 @@ rm 30
 ### Crear particiones
 > Si recibes cualquier advertencia que te diga ignorar o cancelar, solo escribe i y dale a enter enter
 
-#### Para los modelos de 128Gb:
+#### Para todos los modelos:
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
