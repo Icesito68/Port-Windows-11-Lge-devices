@@ -65,7 +65,7 @@ PC:
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/MollySophia/LGE-SM8150-Drivers) (Download like zip)
 
 Phone:
-- [UEFI image](https://github.com/MollySophia/MU-sm8150pkg/releases/)
+- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/releases/tag/Uefi)
 
 - [TWRP](https://t.me/LG_G8X_India)
 
