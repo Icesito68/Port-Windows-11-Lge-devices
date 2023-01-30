@@ -62,7 +62,7 @@ PC:
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/MollySophia/LGE-SM8150-Drivers) (Download like zip)
 
 Phone:
 - [UEFI image](https://github.com/MollySophia/MU-sm8150pkg/releases/)
