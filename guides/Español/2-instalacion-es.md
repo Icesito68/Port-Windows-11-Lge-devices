@@ -136,4 +136,4 @@ ve hasta la `uefi.img` y flashea en boot.
 # volver a Android
 > usa tu backup de boot image desde twrp.
 
-# [Hacer que todo funcione](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guides/Espa%C3%B1ol/3-Despu%C3%A9s-De-Instalar.md)
+# [Configurar todos los drivers para que funcionen](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guides/Espa%C3%B1ol/3-Despu%C3%A9s-De-Instalar.md)
