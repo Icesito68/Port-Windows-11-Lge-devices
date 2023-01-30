@@ -26,7 +26,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] FM
 - [x] GPU
 - [x] LTE ```Partial support```
-- [ ] SD 
+- [x] SD 
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```PD hub needed```
@@ -77,7 +77,7 @@ Phone:
 
 <summary><b><strong>Credits</strong></b></summary>
   
-- [MollySophia](https://github.com/MollySophia) ```Made UEFI and drivers```
+- [MollySophia](https://github.com/MollySophia) ```Made all project```
 
 - [Icesito68](https://github.com/Icesito68) ```Made this repo```
   
