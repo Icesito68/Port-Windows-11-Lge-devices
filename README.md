@@ -21,7 +21,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [ ] Charging ```In progress, working partially```
+- [x] Charging ```Sometimes it's fast charging```
 - [x] Display
 - [ ] FM
 - [x] GPU
