@@ -43,6 +43,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
-- [Project Status](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/English/status.md)
+- [Project Status](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/status.md)
 
 - [Driver updating instructions](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/English/driver-updating.md)
