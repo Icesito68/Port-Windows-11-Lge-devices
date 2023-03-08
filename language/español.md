@@ -35,13 +35,13 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 ## Comencemos
 
-- [Instrucciones para instalar](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/Espa%C3%B1ol/particiones.md)
+- [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-particiones-es.md)
 
-- [Instrucciones para desinstalar](guide/Español/desinstalar.md)
+- [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/2-instalacion-es.md)
 
 
 ## Extras
 
-- [Estado del proyecto](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/Espa%C3%B1ol/estado.md)
+- [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/estado.md)
 
 - [Actualizar drivers](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/Espa%C3%B1ol/actualizar-drivers.md)
