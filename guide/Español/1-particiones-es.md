@@ -106,4 +106,4 @@ después escribe `yes`.
 Solo reinicia el teléfono y comprueba si Android inicia
 
 
-## [Siguiente paso: Instalar Windows](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guides/Espa%C3%B1ol/2-instalacion-es.md)
+## [Siguiente paso: Instalar Windows](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/2-instalacion-es.md)
