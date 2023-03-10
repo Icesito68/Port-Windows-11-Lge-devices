@@ -27,6 +27,8 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 - Tener el script de [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (Este archivo pertenece a [Gus33000](https://github.com/gus33000))
 
 - Tener la [Uefi del G8x](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
+ 
+- Tener la imagen para entrar en el modo mass storagẹ
 
 - Tener los [Drivers](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/) y el [Instalador](https://github.com/WOA-Project/DriverUpdater/releases/)
 
