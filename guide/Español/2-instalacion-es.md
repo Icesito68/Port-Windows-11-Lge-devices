@@ -1,18 +1,8 @@
 # Instalar Windows
-> Necesitas tener el  MTP desactivado en Mount
 
-## Pasar las herramientas necesarias:
-```cmd
-adb push msc.sh /sbin
-```
-
-### Ejecutar el script
-
-```cmd
-adb shell sh /sbin/msc.sh
-```
-
+## Con Qfil necesitas flashear en boot ```LGG8XMassStorageBoot.img´´´ 
   
+## Después sal de EDL, así tu PC reconocerá al G8x como un disco
 
 ## Asignar letras a los discos
   
