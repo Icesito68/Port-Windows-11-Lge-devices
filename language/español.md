@@ -16,7 +16,7 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 - Tener el bootloader desbloqueado
 
-- Tener el [TWRP](https://mega.nz/file/zY4GCDRT#PxUKhUHkucj1oRH_Iu-R6exDak66hPeI71xJWHCTQkY) u [Orange Fox](https://drive.google.com/file/d/1eHM9ST9ni-55bbT3z-TGSZQsgE3KYr9s/view) instalado
+- Tener el [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) u [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link) instalado
 
 - Tener descargadas las [Platform Tools](https://developer.android.com/studio/releases/platform-tools?hl=es-419)
 
