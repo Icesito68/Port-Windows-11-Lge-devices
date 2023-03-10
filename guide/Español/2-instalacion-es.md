@@ -115,19 +115,4 @@ adb push <uefi.img> /sdcard
 adb push <uefi.img> /external_sd
 ```
 
-
-### haz un backup de tu imagen de arranque actual
-> solo tienes que hacer esto una vez
-
-> ponla en tu micro sd si es posible
-
-
-### Flashea la imagen uefi desde twrp.
-ve hasta la `uefi.img` y flashea en boot.
-
-### También puedes hacerlo con QFIL, instala el boot de android en la partición A (boot_a) y la uefi en la B (boot_b) y así podrás cambiar entre slots para iniciar android o windows 
-
-# volver a Android
-> usa tu backup de boot image desde twrp.
-
-# [Configurar todos los drivers para que funcionen](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guides/Espa%C3%B1ol/3-Despu%C3%A9s-De-Instalar.md)
+# [Ya casi hemos terminado, vamos a poner el dual boot]()
