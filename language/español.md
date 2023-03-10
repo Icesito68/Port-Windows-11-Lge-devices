@@ -5,7 +5,7 @@
 
 ## ⚠️ Advertencia
 
-No somos responsables de dispositivos bloqueados, particiones de recuperación eliminadas, trabajadores de xiaomi muertos (Los de Lg están bien no se preocupen), tarjetas microSD muertas, pmics muertos, ram muertas, circuitos integrados muertos, cpus muertos, cualquier travesura de xiaomi/poco, gatos o perros muertos, guerras nucleares o que te despidan porque olvidaste volver a iniciar Android para la alarma.
+No somos responsables de dispositivos bloqueados, particiones de recuperación eliminadas, trabajadores de xiaomi muertos,(Los de Lg están bien no se preocupen) tarjetas microSD muertas, pmics muertos, ram muertas, circuitos integrados muertos, cpus muertos, cualquier travesura de xiaomi/poco, gatos o perros muertos, guerras nucleares o que te despidan porque olvidaste volver a iniciar Android para la alarma.
 
 Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han sido aportados por otros usuarios, aquí encontrará una guía con los archivos que logramos obtener. Este es un proceso delicado, hazlo bajo tu propio riesgo y sigue todos los pasos cuidadosamente.
 
