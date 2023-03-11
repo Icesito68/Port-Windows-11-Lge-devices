@@ -14,6 +14,8 @@ This project is in an early stage, all the files here have been contributed by o
 <details>
 <summary><a><strong>Prerequisites</strong></a></summary>
 
+- MAKE A BACKUP OF ALL PARTITIONS WITH QFIL!
+
 - Have the bootloader unlocked
 
 - Have the [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link) installed
