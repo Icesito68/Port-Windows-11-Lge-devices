@@ -33,6 +33,18 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
   </summary>
 </details>
 
+<details>
+<summary><a><strong>Recomendado</strong></a></summary>
+
+- [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) para los backups y flasheos necesarios
+
+- [Drivers de Qfil}(https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) necesarios para que Qfil funcione 
+
+- [Firehoue para el g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) necesario para que Qfil funcione
+
+  </summary>
+</details>
+
 ## Comencemos
 
 - [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-particiones-es.md)
