@@ -38,7 +38,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) for necessary backups and flashes
 
-- [Drivers for Qfil}(https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) needed for Qfil to work 
+- [Drivers for Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) needed for Qfil to work 
 
 - [Firehose for g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) needed for Qfil to work
 
