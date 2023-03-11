@@ -32,12 +32,6 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
  
 - Tener los [Drivers](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/) y el [Instalador](https://github.com/WOA-Project/DriverUpdater/releases/)
 
-  </summary>
-</details>
-
-<details>
-<summary><a><strong>Recomendado</strong></a></summary>
-
 - [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) para los backups y flasheos necesarios
 
 - [Drivers de Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) necesarios para que Qfil funcione 
