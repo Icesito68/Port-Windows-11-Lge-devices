@@ -49,7 +49,7 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 - [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-particiones-es.md)
 
-- [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/2-instalacion-es.md)
+- [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/desinstalar.md)
 
 
 ## Extras
