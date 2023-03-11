@@ -56,4 +56,4 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 - [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/estado.md)
 
-- [Actualizar drivers](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/Espa%C3%B1ol/actualizar-drivers.md)
+- [Actualizar drivers](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Actualizar.md)
