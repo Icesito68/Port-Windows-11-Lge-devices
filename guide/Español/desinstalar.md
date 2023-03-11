@@ -51,7 +51,7 @@ rm 31
 rm 30
 ```
 
-- Creamos la partición de datos de Android
+### Creamos la partición de datos de Android
 ```sh
 mkpart userdata ext4 19.1GB 126GB
 ```
