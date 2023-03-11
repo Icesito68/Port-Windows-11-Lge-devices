@@ -24,7 +24,7 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 - Tener [Parted](https://www.mediafire.com/file/s9bjano4pezphou/parted/file) (Este archivo pertenece a [Gus33000](https://github.com/gus33000))
 
-- Tener el script de [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (Este archivo pertenece a [Gus33000](https://github.com/gus33000)) o  Tener la imagen para entrar en [mass storage mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link)
+- Tener el script de [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (Este archivo pertenece a [Gus33000](https://github.com/gus33000)) o  Tener la imagen para entrar en [mass storage mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (gracias a Molly por compartirla)
 
 - Tener la [Uefi del G8x](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
  
