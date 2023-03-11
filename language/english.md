@@ -26,7 +26,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - Have the script of [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (This file belongs to [Gus33000](https://github.com/gus33000 ) ) or have image for enter in [mass storage mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
 
-- Have the [Lg G8x Uefi](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/)
+- Have the [Lg G8x Uefi](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
 
 - Have the [Drivers](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)
 
