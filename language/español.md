@@ -38,9 +38,9 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 - [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) para los backups y flasheos necesarios
 
-- [Drivers de Qfil}(https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) necesarios para que Qfil funcione 
+- [Drivers de Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) necesarios para que Qfil funcione 
 
-- [Firehoue para el g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) necesario para que Qfil funcione
+- [Firehose para el g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) necesario para que Qfil funcione
 
   </summary>
 </details>
