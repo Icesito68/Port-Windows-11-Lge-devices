@@ -7,11 +7,11 @@
 
 # Previo
 
-### Haz un backup de las particiones Boot_a y Boot_b con Qfil
+- Haz un backup de las particiones Boot_a y Boot_b con Qfil
 
-### Con Qfil necesitas flashear en boot "LGG8XMassStorageBoot.img"
+- Con Qfil necesitas flashear en boot "LGG8XMassStorageBoot.img"
   
-### Después sal de EDL, así tu PC reconocerá al G8x como un disco
+- Después sal de EDL, así tu PC reconocerá al G8x como un disco
 
 ## Asignar letras a los discos
   
