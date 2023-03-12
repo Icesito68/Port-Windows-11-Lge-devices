@@ -22,7 +22,7 @@ Beta. La mayoría del hardware funciona, pero aún quedan algunas cosas
 - [x] SD
 - [x] Pantalla Táctil
 - [x] UFS
-- [x] USB ```Por ahora está roto```
+- [ ] USB ```Por ahora está roto```
 - [x] WiFi
 
 #### Sensores
