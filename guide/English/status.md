@@ -22,7 +22,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] SD
 - [x] Touchscreen
 - [x] UFS
-- [ ] USB ```PD hub needed and for now is broken```
+- [ ] USB ```For now is broken```
 - [x] Wi-Fi
 
 #### Sensors
