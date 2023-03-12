@@ -41,10 +41,6 @@ exit
 
 ##### Arranca con la imagen de aranque de Windows #####
 
-```
-fastboot flash boot <uefi.img>
-```
-
   
   
 
