@@ -39,7 +39,7 @@ exit
 ```
 
 
-# Arranca con la imagen de aranque de Windows #####
+### Arranca con la imagen de aranque de Windows #####
 
   
   
