@@ -3,34 +3,34 @@
 
 # Running Windows on the LG G8x
 
-## Estado Del Proyecto
+## Project status
 
-Beta. La mayoría del hardware funciona, pero aún quedan algunas cosas
+Beta. Most of the hardware works, but some components do not work yet.
 
-#### Características
+#### Features
 
 - [x] Audio
-- [x] Porcentaje De La Batería
+- [x] Battery percentage
 - [x] Bluetooth
-- [x] Brillo
-- [ ] Cámara
-- [x] Carga ```A veces es carga rápida```
-- [x] Pantalla
+- [x] Brightness
+- [ ] Camera
+- [x] Charging ```Sometimes it charges slowly```
+- [x] Screen
 - [ ] FM
 - [x] GPU
-- [x] LTE ```Soporte Parcial```
+- [x] LTE ```Parcial support```
 - [x] SD
-- [x] Pantalla Táctil
+- [x] Touchscreen
 - [x] UFS
-- [ ] USB ```Por ahora está roto```
+- [ ] USB ```Currently broken```
 - [x] WiFi
 
-#### Sensores
-- [ ] Acelerómetro
-- [ ] Sensor De Huellas
+#### Sensors
+- [ ] Accelerometer
+- [ ] Fingerprint
 - [x] GPS
-- [ ] Giroscopio
-- [ ] Sensor De Luz
-- [ ] Magnetómetro
-- [ ] Proximidad
+- [ ] Gyroscope
+- [ ] Light sensor
+- [ ] Magnetometer
+- [ ] Proximity
 
