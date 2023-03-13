@@ -14,7 +14,7 @@ This steps are necesary to make the partitions where we are going to install Win
 #### Boot TWRP on the device
 
 
-#### Unmount all the partitions
+#### Unmount all partitions
 Ve a mount en TWRP y desmonta todas las particiones
 
 ## Pasar las herramientas necesarias:
