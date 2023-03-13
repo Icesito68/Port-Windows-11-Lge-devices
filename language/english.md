@@ -44,7 +44,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation instructions](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/English/partition.md)
+- [Installation instructions](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/1-Partitions.md)
 
 - [Uninstall instructions](guide/english/uninstall.md)
 
@@ -53,4 +53,4 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project Status](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/status.md)
 
-- [Driver updating instructions](https://github.com/SebastianZSXS/Poco-X3-NFC-WindowsARM/blob/main/guide/English/driver-updating.md)
+- [Driver updating instructions](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Update.md)
