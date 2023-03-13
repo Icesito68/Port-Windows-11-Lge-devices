@@ -1,36 +1,36 @@
-<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/mh2lm.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 
 # Running Windows on the LG G8x
 
-## Project status
+## Estado Del Proyecto
 
-Beta. Most of the hardware works, but some components do not work yet.
+Beta. La mayoría del hardware funciona, pero aún quedan algunas cosas
 
-#### Features
+#### Características
 
 - [x] Audio
-- [x] Battery status
+- [x] Porcentaje De La Batería
 - [x] Bluetooth
-- [x] Brightness
-- [ ] Camera
-- [x] Charging ```Sometimes it's fast charging```
-- [x] Display
+- [x] Brillo
+- [ ] Cámara
+- [x] Carga ```A veces es carga rápida```
+- [x] Pantalla
 - [ ] FM
 - [x] GPU
-- [x] LTE ```Partial support```
+- [x] LTE ```Soporte Parcial```
 - [x] SD
-- [x] Touchscreen
+- [x] Pantalla Táctil
 - [x] UFS
-- [ ] USB ```For now is broken```
-- [x] Wi-Fi
+- [ ] USB ```Por ahora está roto```
+- [x] WiFi
 
-#### Sensors
-- [ ] Accelerometer
-- [ ] Fingerprint
+#### Sensores
+- [ ] Acelerómetro
+- [ ] Sensor De Huellas
 - [x] GPS
-- [ ] Gyroscope
-- [ ] Light sensor
-- [ ] Magnetometer
-- [ ] Proximity
+- [ ] Giroscopio
+- [ ] Sensor De Luz
+- [ ] Magnetómetro
+- [ ] Proximidad
 
