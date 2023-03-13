@@ -43,13 +43,13 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 ## Comencemos
 
-- [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-particiones-es.md)
+- [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-Particiones.md)
 
-- [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/desinstalar.md)
+- [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Desinstalar.md)
 
 
 ## Extras
 
-- [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/estado.md)
+- [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Estado.md)
 
 - [Actualizar drivers](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Actualizar.md)
