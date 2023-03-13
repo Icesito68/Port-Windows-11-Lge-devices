@@ -120,4 +120,4 @@ adb push <uefi.img> /sdcard
 adb push <uefi.img> /external_sd
 ```
 
-# [Ya casi hemos terminado, vamos a poner el dual boot](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/3-Dual-Boot.md)
+# [Ya casi hemos terminado, vamos a poner el dual boot](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/3-Dual-Boot.md)
