@@ -12,7 +12,7 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 - No ejecutes el mismo comando dos veces
 - NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/winong8x)
 
-#### Arranca en TWRP del dispositivo
+#### Arranca en el TWRP del dispositivo
 
 
 #### Desmonta todas las particiones
