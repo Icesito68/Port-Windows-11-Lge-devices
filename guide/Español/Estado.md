@@ -14,7 +14,7 @@ Beta. La mayoría del hardware funciona, pero aún quedan algunas cosas
 - [x] Bluetooth
 - [x] Brillo
 - [ ] Cámara
-- [x] Carga ```A veces es carga rápida```
+- [x] Carga ```La mayoría de veces es carga rápida```
 - [x] Pantalla
 - [ ] FM
 - [x] GPU
