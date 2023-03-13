@@ -1,21 +1,20 @@
  <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 
-# Windows en el Lg G8x
+# Windows on the Lg G8x
 
-Estos pasos son necesarios para crear las particiones donde pondremos Windows
+This steps are necesary to make the partitions where we are going to install Windows.
 
-## Notas:
-> **Advertencia** si eliminas alguna partición via diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda la ufs
-- Estos comandos han sido testeados.
-- Ignora las advertencias de `udevadm`
-- No ejecutes el mismo comando dos veces
-- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/winong8x)
+## Notes:
+> **Warning** if you delete any partitions via diskpart later on or now windows will send a UFS command that gets misinterpreted which erase all your UFS.
+- Ignore `udevadm` warnings.
+- Don't run the same command twice
+- DON'T REBOOT YOUR DEVICE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winong8x)
 
-#### Arranca en TWRP del dispositivo
+#### Boot TWRP on the device
 
 
-#### Desmonta todas las particiones
+#### Unmount all the partitions
 Ve a mount en TWRP y desmonta todas las particiones
 
 ## Pasar las herramientas necesarias:
