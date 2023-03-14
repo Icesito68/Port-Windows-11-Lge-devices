@@ -18,7 +18,7 @@ Beta. La mayoría del hardware funciona, pero aún quedan algunas cosas
 - [x] Pantalla
 - [ ] FM
 - [x] GPU
-- [x] LTE ```Soporte Parcial```
+- [x] LTE ```Soporte Parcial, los datos no funcionan```
 - [x] SD
 - [x] Pantalla Táctil
 - [x] UFS
