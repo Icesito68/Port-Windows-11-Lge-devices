@@ -15,7 +15,7 @@ This steps are necesary to make the partitions where we are going to install Win
 
 
 #### Unmount all partitions
-Go yo mount on TWRP and unmount all partitions
+Go to mount on TWRP and unmount all partitions
 
 ## Move parted to the device
 ```cmd
