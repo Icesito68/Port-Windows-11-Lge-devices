@@ -17,97 +17,96 @@ This steps are necesary to make the partitions where we are going to install Win
 #### Unmount all partitions
 Ve a mount en TWRP y desmonta todas las particiones
 
-## Pasar las herramientas necesarias:
+## Move parted to the device
 ```cmd
 adb push parted /sbin
 ```
 
-## Iniciar ADB shell
+## Start ADB shell
 ```cmd
 adb shell
 ```
 
-# Crear particiones
-#### Darle los permisos necesarios a la herramienta
+# Create partitions
+#### Give parted necessary permissions
 ```sh
 chmod +x /sbin/*
 ```
 
 
-### Iniciar parted
+### Start parted
 ```sh
 parted /dev/block/sda
 ```
 
-### Borrar la partición `grow` 
->Para asegurarte de que la partición 31 es grow puedes usar
+### Delete the `grow` partition
+>To make sure that partition 31 is grow you can use
 >  `print all`
 ```sh
 rm 31
 ```
 
-### Borrar la partición `userdata` 
->Para asegurarte de que la partición 30 es userdata puedes usar
+### Delete the `userdata` partition 
+>To make sure that partition 30 is userdata you can use
 >  `print all`
 ```sh
 rm 30
 ```
 
-### Crear particiones
-> Si recibes cualquier advertencia que te diga ignorar o cancelar, solo escribe i y dale a enter enter
+### Create partitions
+> If you get any warning message telling you to ignore or cancel, just type i and enter
 
-#### Para todos los modelos:
+#### For all models:
 
-- Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
+- Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
 mkpart esp fat32 19.1GB 19.5GB
 ```
 
-- Creamos la partición principal donde instalaremos Windows
+- Create the main partition where Windows will be installed to
 ```sh
 mkpart win ntfs 19.5GB 75.5GB
 ```
 
-- Creamos la partición de datos de Android
+- Create the Android data partition
 ```sh
 mkpart userdata ext4 75.5GB 126GB
 ```
 
 
-### Hace a ESP la partición de arranque para que la imagen EFI pueda detectarla
+### Make ESP partiton bootable so the EFI image can detect it
 ```sh
 set 30 esp on
 ```
 
-### Salir de parted
+### Exit parted
 ```sh
 quit
 ```
 
-### Reiniciar a TWRP
+### Reboot to TWRP
 
-### Iniciar shell otra vez en tu PC
+### Start ADB shell again
 ```cmd
 adb shell
 ```
 
-### Formatear las particiones
--  Formatea la partición ESP en FAT32
+### Format partitions
+- Format the ESP partiton as FAT32
 ```sh
 mkfs.fat -F32 -s1 /dev/block/by-name/esp
 ```
 
--  Formatea la partición de Windows en NTFS
+- Format the Windows partition as NTFS
 ```sh
 mkfs.ntfs -f /dev/block/by-name/win
 ```
 
-- Formatea data
-Ve a Wipe en TWRP y presiona Format Data, 
-después escribe `yes`.
+- Format Android data
+Go to Wipe menu and press Format Data, then type `yes`.
 
-### Comprueba si android inicia
-Solo reinicia el teléfono y comprueba si Android inicia
+### Check if Android still starts
+Just reboot the phone and see if Android still boots.
 
 
-## [Siguiente paso: Instalar Windows](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/2-Instalation.md)
+## [Next step: Installing Windows](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/2-Instalation.md)
