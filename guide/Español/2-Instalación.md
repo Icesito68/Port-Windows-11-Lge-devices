@@ -103,21 +103,6 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-# Arrancar en Windows
-> Recomiendo tener una microSD en la que almacene las imágenes de arranque
 
-> para que no necesites una pc para pasar los archivos.
-
-### Mueve `<uefi.img>` al dispositivo
-
-```cmd
-adb push <uefi.img> /sdcard
-```
-
-##### si tienes una micro sd usa este
-
-```cmd
-adb push <uefi.img> /external_sd
-```
 
 # [Ya casi hemos terminado, vamos a poner el dual boot](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/3-Dual-Boot.md)
