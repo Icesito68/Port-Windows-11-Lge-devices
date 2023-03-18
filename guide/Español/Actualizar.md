@@ -35,7 +35,7 @@ exit
 
 
 ```cmd
-.\driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\surya.txt -r <mh2lmdriversfolder> -p X:
+.\driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
 ```
 
 
