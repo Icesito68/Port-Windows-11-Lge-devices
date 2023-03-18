@@ -16,7 +16,7 @@
 ## Assign letters to disks
   
 
-#### Start the Windows disk manager
+#### Start the diskpart
 
 > Once the G8x is detected as a disk
 
@@ -54,7 +54,7 @@ select volume <number>
 assign letter=y
 ```
 
-### Exit diskpart:
+### Exit Windows diskpart:
 ```diskpart
 exit
 ```
