@@ -16,9 +16,9 @@
 ## Asignar letras a los discos
   
 
-#### Arranca el administrador de discos de Windows
+#### Arranca diskpart en Windows
 
-> Cuando el G8x sea detectado como un disco
+> Una vez que el G8x sea detectado como un disco
 
 ```cmd
 diskpart
@@ -76,9 +76,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Instalar los Drivers
 
-> reemplaza `<mh2lmdriversfolder>` por la localización de la carpeta de drivers
-
 > abre un cmd como Administrador
+
+> reemplaza `<mh2lmdriversfolder>` por la localización de la carpeta de drivers
 
 ```cmd
 driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
