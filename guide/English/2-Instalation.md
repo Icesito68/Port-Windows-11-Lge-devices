@@ -81,7 +81,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 > open a cmd as Administrator
 
 ```cmd
-driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <mh2lmdriversfolder> -p X:
+driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
 ```
 
   
