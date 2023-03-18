@@ -1,47 +1,47 @@
-#### con Qfil pon la imagen de Mass Storage Mode en boot_a y boot_b
+#### with Qfil put Mass Storage Mode image in boot_a and boot_b
 
-> Cuando el Lg G8X sea detectado como disco
+> When the Lg G8X is detected as disk
 
 ```cmd
 diskpart
 ```
 
 
-### Asigna `x` al volumen de Windows
+### Assign `x` to the Windows volume
 
-#### Seleciona el volumen de Windows del teléfono
+#### Select the phone's Windows volume
 > use `list volume` to find it, it's usually the one before the last
 
 ```diskpart
 select volume <number>
 ```
 
-#### Agsigna la letra x
+#### Assign the letter x
 ```diskpart
 assign letter=x
 ```
 
-### Salir de diskpart:
+### Exit diskpart:
 ```diskpart
 exit
 ```
 
 
-# Instalar los Drivers
+# Install the Drivers
 
-> reemplaza `<mh2lmdriversfolder>` por la localización de la carpeta de los drivers
+> replace `<mh2lmdriversfolder>` with the location of the drivers folder
 
-> abre un cmd como administrador
+> open a cmd as administrator
 
 
 ```cmd
-.\driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\surya.txt -r <mh2lmdriversfolder> -p X:
+.\driveupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
 ```
 
 
-### Arranca con la imagen de aranque de Windows #####
+### Boot with the Windows boot image #####
 
   
   
 
-# ¡Terminado!
+# Finished!
