@@ -9,16 +9,16 @@
 
 - Make a backup of the Boot_a and Boot_b partitions with Qfil
 
-- With Qfil you need to flash in boot "LGG8XMassStorageBoot.img"
+- With Qfil, flash "LGG8XMassStorageBoot.img" in boot.
   
 - Then exit EDL, so your PC will recognize the G8x as a disk
 
-## Assign drive letters
+## Assign letters to disks
   
 
 #### Start the Windows disk manager
 
-> When the G8x is detected as a disk
+> Once the G8x is detected as a disk
 
 ```cmd
 diskpart
@@ -28,7 +28,7 @@ diskpart
 ### Assign letter `x` to Windows volume
 
 #### Select the phone's Windows volume
-> use `list volume` to find it, usually it's the penultimate one
+> use `list volume` to find it, usually it's the one before the last one
 
 ```diskpart
 select volume <number>
@@ -66,7 +66,7 @@ exit
 
 > replace `<path/to/Install.wim>` with the path of the install.wim file
 
-> `install.wim` is in the sources folder of the ISO
+> `install.wim` is in the sources folder of the ISO,
 > you can get it after mounting or extracting the ISO
 
 ```cmd
@@ -76,9 +76,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Install the Drivers
 
-> replace `<mh2lmdriversfolder>` with the location of the drivers folder
-
 > open a cmd as Administrator
+
+> replace `<mh2lmdriversfolder>` with the location of the drivers folder
 
 ```cmd
 driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
