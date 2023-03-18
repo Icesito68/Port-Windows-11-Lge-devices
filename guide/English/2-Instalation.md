@@ -103,21 +103,5 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-# Boot into Windows
-> I recommend having a microSD on which you store the boot images
-
-> so you don't need a pc to pass the files.
-
-### Move `<uefi.img>` to the device
-
-```cmd
-adb push <uefi.img> /sdcard
-```
-
-##### if you have a micro sd use this
-
-```cmd
-adb push <uefi.img> /external_sd
-```
 
 # [We are almost done, let's put the dual boot](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/3-Dual-Boot.md )
