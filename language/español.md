@@ -30,7 +30,7 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 - Tener la [Uefi del G8x](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
  
-- Tener los [Drivers](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/) y el [Instalador](https://github.com/WOA-Project/DriverUpdater/releases/)
+- Tener los [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2302.02) y el [Instalador](https://github.com/WOA-Project/DriverUpdater/releases/)
 
 - [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) para los backups y flasheos necesarios
 
