@@ -30,7 +30,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - Have the [Lg G8x Uefi](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
 
-- Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2302.02) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)
+- Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2303.00) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)
 
 - [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) for necessary backups and flashes
 
