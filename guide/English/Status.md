@@ -14,15 +14,18 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging ```Sometimes it charges slowly```
+- [x] Charging ```Sometimes it charges slowly``
+- [x] Wireless Charging 
 - [x] Screen
+- [ ] Dual Screen For Lg
+- [ ] MHL
 - [ ] FM
 - [x] GPU
 - [x] LTE ```Parcial support, mobile data no work```
 - [x] SD
 - [x] Touchscreen
 - [x] UFS
-- [ ] USB ```Currently broken```
+- [x] USB ```You need boot windows with PD```
 - [x] WiFi
 
 #### Sensors

@@ -5,24 +5,27 @@
 
 ## Estado Del Proyecto
 
-Beta. La mayoría del hardware funciona, pero aún quedan algunas cosas
+Beta. La mayoría del hardware funciona, pero aún quedan cosas
 
 #### Características
 
 - [x] Audio
-- [x] Porcentaje De La Batería
+- [x] Porcentaje De La Batería  ```Muchas veces no se sincroniza bien del todo```
 - [x] Bluetooth
 - [x] Brillo
 - [ ] Cámara
 - [x] Carga ```La mayoría de veces es carga rápida```
+- [x] Carga Inalámbrica
 - [x] Pantalla
+- [ ] Pantalla Secundaria De Lg
+- [ ] MHL
 - [ ] FM
 - [x] GPU
 - [x] LTE ```Soporte Parcial, los datos no funcionan```
 - [x] SD
 - [x] Pantalla Táctil
 - [x] UFS
-- [ ] USB ```Por ahora está roto```
+- [x] USB ```Tienes que iniciar windows con PD```
 - [x] WiFi
 
 #### Sensores
