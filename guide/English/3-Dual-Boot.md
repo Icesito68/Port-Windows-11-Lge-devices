@@ -1,7 +1,7 @@
-<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On To LG G8x">
+<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-V50/flashlmdd.png" width="350" alt="Windows 11 Running On To LG G8x">
 
 
-# Windows on the Lg G8x
+# Windows on the Lg V50
 
 ## Dual Boot
 

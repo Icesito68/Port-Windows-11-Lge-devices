@@ -1,7 +1,7 @@
- <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+ <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-V50/flashlmdd.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 
-# Windows on the Lg G8x
+# Windows on the Lg V50
 
 This steps are necesary to make the partitions where we are going to install Windows.
 
@@ -60,12 +60,12 @@ rm 30
 
 - Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
-mkpart esp fat32 19.1GB 19.5GB
+mkpart esp fat32 18.4GB 19GB
 ```
 
 - Create the main partition where Windows will be installed to
 ```sh
-mkpart win ntfs 19.5GB 75.5GB
+mkpart win ntfs 19GB 75.5GB
 ```
 
 - Create the Android data partition
