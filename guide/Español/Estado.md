@@ -14,7 +14,7 @@ Beta. La mayoría del hardware funciona, pero aún quedan cosas
 - [x] Bluetooth
 - [x] Brillo
 - [ ] Cámara
-- [x] Carga ```La mayoría de veces es carga rápida```
+- [x] Carga ```Carga más o menos a 7w```
 - [x] Carga Inalámbrica
 - [x] Pantalla
 - [ ] Pantalla Secundaria De Lg
@@ -25,7 +25,7 @@ Beta. La mayoría del hardware funciona, pero aún quedan cosas
 - [x] SD
 - [x] Pantalla Táctil
 - [x] UFS
-- [x] USB ```Tienes que iniciar windows con PD```
+- [x] USB ```Si intentas cargar el móvil dejará de funcionar```
 - [x] WiFi
 
 #### Sensores
