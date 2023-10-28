@@ -28,15 +28,15 @@ This project is in an early stage, all the files here have been contributed by o
 
 - Have the script of [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (This file belongs to [Gus33000](https://github.com/gus33000 ) ) or have image for enter in [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
 
-- Have the [Lg G8x Uefi](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
+- Have the [Lg V50 Uefi](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
 
-- Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2303.00) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)
+- Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2304.00) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)
 
 - [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) for necessary backups and flashes
 
 - [Drivers for Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) needed for Qfil to work 
 
-- [Firehose for g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) needed for Qfil to work
+- [Firehose for v50](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) needed for Qfil to work
 
 </summary>
 </details>
@@ -44,15 +44,15 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation instructions](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/1-Partitions.md)
+- [Installation instructions](../guide/English/1-Partitions.md)
 
-- [Uninstall instructions](guide/english/uninstall.md)
+- [Uninstall instructions](../guide/English/Uninstall.md)
 
 
 ## Miscellaneous
 
-- [Project Status](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Status.md)
+- [Project Status](../guide/English/Status.md)
 
-- [Driver updating instructions](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Update.md)
+- [Driver updating instructions](../guide/English/Update.md)
 
-- [Extra](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Extra.md)
+- [Extra](../guide/English/Extra.md)

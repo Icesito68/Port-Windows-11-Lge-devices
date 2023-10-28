@@ -109,4 +109,4 @@ Go to Wipe menu and press Format Data, then type `yes`.
 Just reboot the phone and see if Android still boots.
 
 
-## [Next step: Installing Windows](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/2-Instalation.md)
+## [Next step: Installing Windows](2-Instalation.md)

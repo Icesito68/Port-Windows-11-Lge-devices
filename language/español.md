@@ -28,30 +28,30 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 - Tener el script de [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (Este archivo pertenece a [Gus33000](https://github.com/gus33000)) o  Tener la imagen para entrar en [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (gracias a Molly por compartirla)
 
-- Tener la [Uefi del G8x](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
+- Tener la [Uefi del V50](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
  
-- Tener los [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2303.00) y el [Instalador](https://github.com/WOA-Project/DriverUpdater/releases/)
+- Tener los [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2304.00) y el [Instalador](https://github.com/WOA-Project/DriverUpdater/releases/)
 
 - [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) para los backups y flasheos necesarios
 
 - [Drivers de Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) necesarios para que Qfil funcione 
 
-- [Firehose para el g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) necesario para que Qfil funcione
+- [Firehose para el v50](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) necesario para que Qfil funcione
 
   </summary>
 </details>
 
 ## Comencemos
 
-- [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-Particiones.md)
+- [Instrucciones para instalar](../guide/Español/1-Particiones.md)
 
-- [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Desinstalar.md)
+- [Instrucciones para desinstalar](../guide/Español/Desinstalar.md)
 
 
 ## Extras
 
-- [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Estado.md)
+- [Estado del proyecto](../guide/Español/Estado.md)
 
-- [Actualizar drivers](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Actualizar.md)
+- [Actualizar drivers](../guide/Español/Actualizar.md)
 
-- [Extras](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Extra.md)
+- [Extras](../guide/Español/Extra.md)

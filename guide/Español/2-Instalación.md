@@ -105,4 +105,4 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 
 
-# [Ya casi hemos terminado, vamos a poner el dual boot](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/3-Dual-Boot.md)
+# [Ya casi hemos terminado, vamos a poner el dual boot](3-Dual-Boot.md)
