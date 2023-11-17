@@ -10,13 +10,13 @@ Alpha. This project is just starting, please be patient for future updates.
 #### Features
 
 - [ ] Audio
-- [ ] Battery percentage
+- [x] Battery percentage
 - [ ] Bluetooth
 - [ ] Brightness
 - [ ] Camera
-- [ ] Charging 
-- [ ] Wireless Charging 
-- [ ] Screen
+- [x] Charging 
+- [x] Wireless Charging 
+- [x] Screen
 - [ ] Dual Screen For Lg
 - [ ] MHL
 - [ ] FM
@@ -24,14 +24,14 @@ Alpha. This project is just starting, please be patient for future updates.
 - [ ] LTE 
 - [ ] SD
 - [ ] Touchscreen
-- [ ] UFS
-- [ ] USB 
+- [x] UFS
+- [x] USB 
 - [ ] WiFi
 
 #### Sensors
 - [ ] Accelerometer
 - [ ] Fingerprint
-- [ ] GPS
+- [x] GPS
 - [ ] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer

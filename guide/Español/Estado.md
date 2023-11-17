@@ -10,13 +10,13 @@ Alfa. Este proyecto está empezando, tengan paciencia para futuras actualizacion
 #### Características
 
 - [ ] Audio
-- [ ] Porcentaje De La Batería  
+- [x] Porcentaje De La Batería  
 - [ ] Bluetooth
 - [ ] Brillo
 - [ ] Cámara
-- [ ] Carga 
-- [ ] Carga Inalámbrica
-- [ ] Pantalla
+- [x] Carga 
+- [x] Carga Inalámbrica
+- [x] Pantalla
 - [ ] Pantalla Secundaria De Lg
 - [ ] MHL
 - [ ] FM
@@ -24,14 +24,14 @@ Alfa. Este proyecto está empezando, tengan paciencia para futuras actualizacion
 - [ ] LTE 
 - [ ] SD
 - [ ] Pantalla Táctil
-- [ ] UFS
-- [ ] USB 
+- [x] UFS
+- [x] USB 
 - [ ] WiFi
 
 #### Sensores
 - [ ] Acelerómetro
 - [ ] Sensor De Huellas
-- [ ] GPS
+- [x] GPS
 - [ ] Giroscopio
 - [ ] Sensor De Luz
 - [ ] Magnetómetro
