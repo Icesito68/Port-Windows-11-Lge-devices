@@ -32,11 +32,11 @@
 
 > `install.wim` is in the sources folder of the ISO,
 > you can get it after mounting or extracting the ISO
-> replace `X` with the letter of your win partition
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
+> replace `X` with the letter of your win partition
 
 
 # Install the Drivers
@@ -44,33 +44,32 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 > open a cmd as Administrator
 
 > on cmd go to location of the drivers folder where `driverupdater.exe` is located
-> replace `X` with the letter of your win partition
 
 ```cmd
 .\driverupdater.exe -d .\definitions\Desktop\ARM64\Internal\mh2lm.txt -r . -p X:\
 ```
+> replace `X` with the letter of your win partition
 
   
 
 # Create the Windows bootloader files
 
->where X is win partition and Y is esp partition
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
+>where X is win partition and Y is esp partition
   
   
 
 # Allow unsigned drivers
 
 > if you don't do this you will get a BSOD
-> where Y is esp partition
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
+> where Y is esp partition
 
 
 # Now we go back to recovery 
