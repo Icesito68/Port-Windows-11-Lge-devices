@@ -53,7 +53,7 @@ rm 31
 ```sh
 resizepart 30
 ```
->Reemplaza XX con la cantidad de almacenamiento que quieras para Userdata, el resto se usara ora Windows
+>Reemplaza XX con la cantidad de almacenamiento que quieras para Userdata, el resto se usara en Windows
 ```sh
 XXGB
 ```
