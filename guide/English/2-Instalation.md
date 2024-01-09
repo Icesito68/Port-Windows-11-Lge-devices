@@ -72,7 +72,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 > where Y is esp partition
 
 
-# Now we go back to recovery 
+# Create ESP Flag 
 
 > if you don't do this you windows will throw an error and cannot boot!
 
