@@ -74,11 +74,6 @@ mkpart esp fat32 XXGB XX.5GB
 mkpart win ntfs XX.5GB 126GB
 ```
 
-### Make ESP partiton bootable so the EFI image can detect it
-```sh
-set 30 esp on
-```
-
 ### Exit parted
 ```sh
 quit
