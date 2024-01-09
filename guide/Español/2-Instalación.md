@@ -74,7 +74,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 
 
-# Poner Flag ESP  
+# Crear Flag ESP  
 
 > Si no haces esto, Windows no continuara con la instalacion!
 
