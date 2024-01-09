@@ -86,11 +86,6 @@ quit
 
 ### Reboot to TWRP
 
-### Start ADB shell again
-```cmd
-adb shell
-```
-
 - Format Android data
 Go to Wipe menu and press Format Data, then type `yes`.
 
