@@ -17,6 +17,13 @@
   ```sh
   fastboot boot LGG8XMassStorageBoot.img
   ```
+
+# Format Esp and Win
+
+> On windows explorer identify ESP, it should be called EFI and have about 500MB
+> right click and fast format it as Fat32
+> Same with Win, it shouldnt have a name but be about the amount of GB you chose
+> right click and fast format it as NTFS
   
 
 ## Install
@@ -25,6 +32,7 @@
 
 > `install.wim` is in the sources folder of the ISO,
 > you can get it after mounting or extracting the ISO
+> replace `X` with the letter of your Win partition
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -35,10 +43,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > open a cmd as Administrator
 
-> replace `<mh2lmdriversfolder>` with the location of the drivers folder
+> on cmd go to location of the drivers folder where `driverupdater.exe` is located
+> replace `X` with the letter of your Win partition
 
 ```cmd
-driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
+.\driverupdater.exe -d .\definitions\Desktop\ARM64\Internal\mh2lm.txt -r . -p X:\
 ```
 
   
