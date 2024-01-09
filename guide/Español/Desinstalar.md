@@ -3,6 +3,8 @@
 
 # Windows en el Lg G8x
 
+- Entra en el modo EDL y restaura el respaldo de tus particiones boot_a y boot_b
+
 #### Arranca en TWRP del dispositivo
 
 #### Desmonta todas las particiones
@@ -10,7 +12,7 @@ Ve a mount en TWRP y desmonta todas las particiones
 
 ## Pasar las herramientas necesarias:
 ```cmd
-adb push parted /sbin
+adb push parted /cache
 ```
 
 ## Iniciar ADB shell
@@ -21,39 +23,35 @@ adb shell
 # Restaurar particiones
 #### Darle los permisos necesarios a la herramienta
 ```sh
-chmod +x /sbin/*
+chmod 755 /cache/parted
 ```
 
 
 ### Iniciar parted
 ```sh
-parted /dev/block/sda
+./parted /dev/block/sda
 ```
 
-### Borrar la partición `userdata` 
->Para asegurarte de que la partición 32 es userdata puedes usar
+### Borrar la partición `win` 
+>Para asegurarte de que la partición 32 es win puedes usar
 >  `print all`
 ```sh
 rm 32
 ```
 
-### Borrar la partición `win` 
->Para asegurarte de que la partición 31 es win puedes usar
+### Borrar la partición `esp` 
+>Para asegurarte de que la partición 31 es esp puedes usar
 >  `print all`
 ```sh
 rm 31
 ```
 
-### Borrar la partición `esp` 
->Para asegurarte de que la partición 30 es esp puedes usar
+### Redimensionar particion `userdata`
+>Para asegurarte de que la partición 30 es userdata puedes usar
 >  `print all`
 ```sh
-rm 30
-```
-
-### Creamos la partición de datos de Android
-```sh
-mkpart userdata ext4 19.1GB 126GB
+resizepart 30
+126GB
 ```
 
 ### Salir de parted
