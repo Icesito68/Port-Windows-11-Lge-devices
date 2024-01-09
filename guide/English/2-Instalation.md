@@ -74,6 +74,8 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 # Now we go back to recovery 
 
+> if you don't do this you windows will throw an error and cannot boot!
+
 #### Boot TWRP
 
 
