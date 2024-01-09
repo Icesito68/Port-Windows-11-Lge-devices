@@ -20,7 +20,7 @@ Ve a mount en TWRP y desmonta todas las particiones
 
 ## Pasar las herramientas necesarias:
 ```cmd
-adb push parted /sbin
+adb push parted /cache
 ```
 
 ## Iniciar ADB shell
@@ -31,13 +31,13 @@ adb shell
 # Crear particiones
 #### Darle los permisos necesarios a la herramienta
 ```sh
-chmod +x /sbin/*
+chmod 775 /cache/parted
 ```
 
 
 ### Iniciar parted
 ```sh
-parted /dev/block/sda
+./parted /dev/block/sda
 ```
 
 ### Borrar la partición `grow` 
@@ -47,11 +47,15 @@ parted /dev/block/sda
 rm 31
 ```
 
-### Borrar la partición `userdata` 
->Para asegurarte de que la partición 30 es userdata puedes usar
+### Redimensionar la partición `userdata` 
+>Para asegurarte de que la partición 30 es Userdata puedes usar
 >  `print all`
 ```sh
-rm 30
+resizepart 30
+```
+>Reemplaza XX con la cantidad de almacenamiento que quieras para Userdata, el resto se usara ora Windows
+```sh
+XXGB
 ```
 
 ### Crear particiones
@@ -60,24 +64,15 @@ rm 30
 #### Para todos los modelos:
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
+>Necesitamos que esta particion tenga 500MB, reemplaza XX con lo que diga "END" en Userdata
 ```sh
-mkpart esp fat32 19.1GB 19.5GB
+mkpart esp fat32 XXGB XX.5GB
 ```
 
 - Creamos la partición principal donde instalaremos Windows
+> Reemplazamos XX con lo que diga "END" en ESP
 ```sh
-mkpart win ntfs 19.5GB 75.5GB
-```
-
-- Creamos la partición de datos de Android
-```sh
-mkpart userdata ext4 75.5GB 126GB
-```
-
-
-### Hace a ESP la partición de arranque para que la imagen EFI pueda detectarla
-```sh
-set 30 esp on
+mkpart win ntfs XX.5GB 126GB
 ```
 
 ### Salir de parted
@@ -92,16 +87,6 @@ quit
 adb shell
 ```
 
-### Formatear las particiones
--  Formatea la partición ESP en FAT32
-```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp
-```
-
--  Formatea la partición de Windows en NTFS
-```sh
-mkfs.ntfs -f /dev/block/by-name/win
-```
 
 - Formatea data
 Ve a Wipe en TWRP y presiona Format Data, 
