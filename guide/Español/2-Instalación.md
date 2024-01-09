@@ -21,8 +21,11 @@
 # Formatear esp y win
 
 > identifica esp en el explorador de Windows, podria llamarse EFI y tener alrededor de 500MB
+
 > dale click derecho y formato rapido en fat32
+
 > lo mismo con win, podria no tener nombre pero tendra alrededor de la cantidad de GB que le pusiste anteriormente
+
 > dale click derecho y formato rapido en ntfs
 
 ## Instalar
