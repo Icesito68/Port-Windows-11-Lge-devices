@@ -11,7 +11,7 @@ This steps are necesary to make the partitions where we are going to install Win
 - Don't run the same command twice
 - DON'T REBOOT YOUR DEVICE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winong8x)
 
-#### Boot TWRP on the device
+#### Boot TWRP 3.6.0 on the device
 
 
 #### Unmount all partitions
@@ -19,7 +19,7 @@ Go to mount on TWRP and unmount all partitions
 
 ## Move parted to the device
 ```cmd
-adb push parted /sbin
+adb push parted /cache
 ```
 
 ## Start ADB shell
@@ -30,13 +30,13 @@ adb shell
 # Create partitions
 #### Give parted necessary permissions
 ```sh
-chmod +x /sbin/*
+chmod 755 /cache/parted
 ```
 
 
 ### Start parted
 ```sh
-parted /dev/block/sda
+./parted /dev/block/sda
 ```
 
 ### Delete the `grow` partition
@@ -46,11 +46,15 @@ parted /dev/block/sda
 rm 31
 ```
 
-### Delete the `userdata` partition 
+### Resize the `userdata` partition
 >To make sure that partition 30 is userdata you can use
 >  `print all`
 ```sh
-rm 30
+resizepart 30
+```
+>Replace XX with the amount of storage you want for Userdata, the rest will be for Windows
+```sh
+XXGB
 ```
 
 ### Create partitions
@@ -59,20 +63,16 @@ rm 30
 #### For all models:
 
 - Create the ESP partition (stores Windows bootloader data and EFI files)
+>We want this partition to have 500MB, replace XX with the "END" of userdata
 ```sh
-mkpart esp fat32 19.1GB 19.5GB
+mkpart esp fat32 XXGB XX.5GB
 ```
 
 - Create the main partition where Windows will be installed to
+> Replace XX with the "END" of ESP, this storage will be for windows
 ```sh
-mkpart win ntfs 19.5GB 75.5GB
+mkpart win ntfs XX.5GB 126GB
 ```
-
-- Create the Android data partition
-```sh
-mkpart userdata ext4 75.5GB 126GB
-```
-
 
 ### Make ESP partiton bootable so the EFI image can detect it
 ```sh
