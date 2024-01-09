@@ -67,6 +67,6 @@ Go to Wipe menu on TWRP and press Format Data,
 then write `yes`.
 
 ### Check if Android boots
-Reboot your device and check if android works
+Reboot your device and check if Android boots
 
 ## ¡Done!
