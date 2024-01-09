@@ -91,17 +91,6 @@ quit
 adb shell
 ```
 
-### Format partitions
-- Format the ESP partiton as FAT32
-```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp
-```
-
-- Format the Windows partition as NTFS
-```sh
-mkfs.ntfs -f /dev/block/by-name/win
-```
-
 - Format Android data
 Go to Wipe menu and press Format Data, then type `yes`.
 
