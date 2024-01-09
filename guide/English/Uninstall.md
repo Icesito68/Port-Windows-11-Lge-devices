@@ -1,16 +1,16 @@
  <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 
-# Windows en el Lg G8x
+# Windows on Lg G8x
 
-#### Arranca en TWRP del dispositivo
+#### Boot TWRP on the device
 
-#### Desmonta todas las particiones
-Ve a mount en TWRP y desmonta todas las particiones
+#### Unmount all partitions
+Go to mount on TWRP and unmount all partitions
 
-## Pasar las herramientas necesarias:
+## Move parted to the device
 ```cmd
-adb push parted /sbin
+adb push parted /cache
 ```
 
 ## Iniciar ADB shell
