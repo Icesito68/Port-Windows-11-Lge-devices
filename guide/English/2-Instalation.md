@@ -13,53 +13,10 @@
   
 - Then exit EDL, so your PC will recognize the G8x as a disk
 
-## Assign letters to disks
-  
-
-#### Start the diskpart
-
-> Once the G8x is detected as a disk
-
-```cmd
-diskpart
-```
-
-
-### Assign letter `x` to Windows volume
-
-#### Select the phone's Windows volume
-> use `list volume` to find it, usually it's the one before the last one
-
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter x
-```diskpart
-assign letter=x
-```
-
-### Assign `y` to esp volume
-
-#### Select phone esp volume
-> use `list volume` to find it, usually it's the last one
-
-```diskpart
-select volume <number>
-```
-
-#### Assign letter y
-
-```diskpart
-assign letter=y
-```
-
-### Exit Windows diskpart:
-```diskpart
-exit
-```
-
-  
+- If you have engineering abl_a you can instead go to fastboot and run
+  ```sh
+  fastboot boot LGG8XMassStorageBoot.img
+  ```
   
 
 ## Install
@@ -101,6 +58,45 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+```
+
+
+# Now we go back to recovery 
+
+#### Boot TWRP
+
+
+#### Unmount all partitions
+Go to mount on TWRP and unmount all partitions
+
+## Move parted to the device
+```cmd
+adb push parted /cache
+```
+
+## Start ADB shell
+```cmd
+adb shell
+```
+
+#### Give parted necessary permissions
+```sh
+chmod 755 /cache/parted
+```
+
+
+### Start parted
+```sh
+./parted /dev/block/sda
+```
+### Make ESP partiton bootable so the EFI image can detect it
+```sh
+set 30 esp on
+```
+
+### Exit parted
+```sh
+quit
 ```
 
 
