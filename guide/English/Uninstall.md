@@ -3,6 +3,8 @@
 
 # Windows on Lg G8x
 
+- Go to EDL mode and restore your boot_a and boot_b backups
+
 #### Boot TWRP on the device
 
 #### Unmount all partitions
@@ -13,61 +15,58 @@ Go to mount on TWRP and unmount all partitions
 adb push parted /cache
 ```
 
-## Iniciar ADB shell
+## Start ADB shell
 ```cmd
 adb shell
 ```
 
-# Restaurar particiones
-#### Darle los permisos necesarios a la herramienta
+# Restore Partitions
+#### Give parted necessary permissions
 ```sh
-chmod +x /sbin/*
+chmod 755 /cache/parted
 ```
 
 
-### Iniciar parted
+### Start Parted
 ```sh
-parted /dev/block/sda
+./parted /dev/block/sda
 ```
 
-### Borrar la partición `userdata` 
->Para asegurarte de que la partición 32 es userdata puedes usar
+### Delete `win` Partition
+>To make sure that partition 32 is win you can use 
 >  `print all`
 ```sh
 rm 32
 ```
 
-### Borrar la partición `win` 
->Para asegurarte de que la partición 31 es win puedes usar
+### Delete `esp` Partition
+>To make sure that partition 31 is esp you can use
 >  `print all`
 ```sh
 rm 31
 ```
 
-### Borrar la partición `esp` 
->Para asegurarte de que la partición 30 es esp puedes usar
+
+### Resize `userdata` Partition
+>To make sure that partition 31 is Userdata you can use
 >  `print all`
 ```sh
-rm 30
+resizepart 30
+126GB
 ```
 
-### Creamos la partición de datos de Android
-```sh
-mkpart userdata ext4 19.1GB 126GB
-```
-
-### Salir de parted
+### Exit Parted
 ```sh
 quit
 ```
 
-### Reiniciar a TWRP
+### Reboot to TWRP
 
-- Formatea data
-Ve a Wipe en TWRP y presiona Format Data, 
-después escribe `yes`.
+- Format data
+Go to Wipe menu on TWRP and press Format Data, 
+then write `yes`.
 
-### Comprueba si android inicia
-Solo reinicia el teléfono y comprueba si Android inicia
+### Check if Android boots
+Reboot your device and check if android works
 
-## ¡Terminado!
+## ¡Done!
