@@ -13,54 +13,20 @@
   
 - Después sal de EDL, así tu PC reconocerá al G8x como un disco
 
-## Asignar letras a los discos
-  
+- como alternative, si tienes abl_a de ingenieria puedes ejecutar en fastboot lo siguiente
+  ```sh
+  fastboot boot LGG8XMassStorageBoot.img
+  ```
 
-#### Arranca diskpart en Windows
+# Formatear esp y win
 
-> Una vez que el G8x sea detectado como un disco
+> identifica esp en el explorador de Windows, podria llamarse EFI y tener alrededor de 500MB
 
-```cmd
-diskpart
-```
+> dale click derecho y formato rapido en fat32
 
+> lo mismo con win, podria no tener nombre pero tendra alrededor de la cantidad de GB que le pusiste anteriormente
 
-### Asignar letra `x` al volumen de Windows
-
-#### Selecciona el volumen de Windows del Teléfono
-> usa `list volume` para encontrarlo, normalmente es el penúltimo
-
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter x
-```diskpart
-assign letter=x
-```
-
-### Asinar `y` al volumen de esp 
-
-#### Selecciona el volumen de esp del teléfono
-> usa `list volume` para encontrarlo, normalmente es el último
-
-```diskpart
-select volume <number>
-```
-
-#### Asignar letra y
-
-```diskpart
-assign letter=y
-```
-
-### Salir de diskpart:
-```diskpart
-exit
-```
-
-  
-  
+> dale click derecho y formato rapido en ntfs
 
 ## Instalar
 
@@ -72,18 +38,19 @@ exit
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
+> reemplaza `X` con la letra de tu particion win
 
 
 # Instalar los Drivers
 
 > abre un cmd como Administrador
 
-> reemplaza `<mh2lmdriversfolder>` por la localización de la carpeta de drivers
+> en cmd ve a la ruta de la carpeta drivers, donde `driverupdater.exe` se encuentra
 
 ```cmd
-driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
+.\driverupdater.exe -d .\definitions\Desktop\ARM64\Internal\mh2lm.txt -r . -p X:\
 ```
-
+> replace `X` with the letter of your win partition
   
 
 # Crear los archivos del bootloader de Windows 
@@ -91,6 +58,7 @@ driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
+>reemplaza `X` con la letra particion win y `Y` con la letra de la particion esp
 
   
   
@@ -102,6 +70,50 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
+> reemplaza `Y` con la letra de la particion esp
+
+
+
+# Crear Flag ESP  
+
+> Si no haces esto, Windows no continuara con la instalacion!
+
+#### Arranque a TWRP
+
+
+#### Desmonta todas las particiones
+Ve a mount en TWRP y desmonta todas las particiones
+
+## Mueve Parted al dispositivo
+```cmd
+adb push parted /cache
+```
+
+## Inicia ADB shell
+```cmd
+adb shell
+```
+
+#### Dale los permisos necesarios a Parted
+```sh
+chmod 755 /cache/parted
+```
+
+
+### Inicia parted
+```sh
+./parted /dev/block/sda
+```
+### Vuelve la particion ESP booteable para que la imagen EFI pueda encontrarla
+```sh
+set 30 esp on
+```
+
+### Sal de parted
+```sh
+quit
+```
+
 
 
 

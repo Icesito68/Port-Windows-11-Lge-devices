@@ -13,53 +13,17 @@
   
 - Then exit EDL, so your PC will recognize the G8x as a disk
 
-## Assign letters to disks
-  
+- If you have engineering abl_a you can instead go to fastboot and run
+  ```sh
+  fastboot boot LGG8XMassStorageBoot.img
+  ```
 
-#### Start the diskpart
+# Format Esp and Win
 
-> Once the G8x is detected as a disk
-
-```cmd
-diskpart
-```
-
-
-### Assign letter `x` to Windows volume
-
-#### Select the phone's Windows volume
-> use `list volume` to find it, usually it's the one before the last one
-
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter x
-```diskpart
-assign letter=x
-```
-
-### Assign `y` to esp volume
-
-#### Select phone esp volume
-> use `list volume` to find it, usually it's the last one
-
-```diskpart
-select volume <number>
-```
-
-#### Assign letter y
-
-```diskpart
-assign letter=y
-```
-
-### Exit Windows diskpart:
-```diskpart
-exit
-```
-
-  
+> On windows explorer identify ESP, it should be called EFI and have about 500MB
+> right click and fast format it as Fat32
+> Same with Win, it shouldnt have a name but be about the amount of GB you chose
+> right click and fast format it as NTFS
   
 
 ## Install
@@ -72,26 +36,29 @@ exit
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
+> replace `X` with the letter of your win partition
 
 
 # Install the Drivers
 
 > open a cmd as Administrator
 
-> replace `<mh2lmdriversfolder>` with the location of the drivers folder
+> on cmd go to location of the drivers folder where `driverupdater.exe` is located
 
 ```cmd
-driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
+.\driverupdater.exe -d .\definitions\Desktop\ARM64\Internal\mh2lm.txt -r . -p X:\
 ```
+> replace `X` with the letter of your win partition
 
   
 
 # Create the Windows bootloader files
 
+
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
+>where X is win partition and Y is esp partition
   
   
 
@@ -101,6 +68,48 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+```
+> where Y is esp partition
+
+
+# Create ESP Flag 
+
+> if you don't do this you windows will throw an error and cannot boot!
+
+#### Boot TWRP
+
+
+#### Unmount all partitions
+Go to mount on TWRP and unmount all partitions
+
+## Move parted to the device
+```cmd
+adb push parted /cache
+```
+
+## Start ADB shell
+```cmd
+adb shell
+```
+
+#### Give parted necessary permissions
+```sh
+chmod 755 /cache/parted
+```
+
+
+### Start parted
+```sh
+./parted /dev/block/sda
+```
+### Make ESP partiton bootable so the EFI image can detect it
+```sh
+set 30 esp on
+```
+
+### Exit parted
+```sh
+quit
 ```
 
 
