@@ -51,6 +51,8 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
+- [Dualboot setup](/guide/English/dualboot.md)
+  
 - [Project Status](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Status.md)
 
 - [Driver updating instructions](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Update.md)
