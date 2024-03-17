@@ -12,21 +12,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
-<details>
-<summary><a><strong>Prerequisites</strong></a></summary>
-
-- MAKE A BACKUP OF ALL PARTITIONS WITH QFIL!
-
-- Have the bootloader unlocked
-
-- Have the [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link) installed
-
-- image for enter in [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
-
-</summary>
-</details>
-
-
 ## Get Started
 - [Project Status](status.md)
  
