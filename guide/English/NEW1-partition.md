@@ -12,11 +12,17 @@
   
 - [Recovery image]
 
-## Notes:
-> **Warning** if you delete any partitions via diskpart later on or now windows will send a UFS command that gets misinterpreted which erase all your UFS.
-- Ignore `udevadm` warnings.
-- Don't run the same command twice
-- DON'T REBOOT YOUR DEVICE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winong8x)
+### Notes
+> [!WARNING]  
+> All your data will be erased! Back up now if needed.
+> 
+> Do not run the same command twice unless specified.
+>  
+> Do not run all commands at once, execute them in order!
+>
+> YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
+>
+> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat]([https://t.me/WinOnF1](https://t.me/winong8x)).
 
 #### Boot TWRP 3.6.0 on the device
 
