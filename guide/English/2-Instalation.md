@@ -67,7 +67,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 > if you don't do this you will get a BSOD
 
 ```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 > where Y is esp partition
 
