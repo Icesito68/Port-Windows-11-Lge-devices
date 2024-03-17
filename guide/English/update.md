@@ -57,7 +57,7 @@ exit
 > This does not require a PC, but may fail if driver signatures change
 
 ##### Installing drivers
-> Download and extract the drivers archibe onto your device, then run the `OnlineUpdater.cmd` file
+> Download and extract the drivers archive onto your device, then run the `OnlineUpdater.cmd` file
 
 ##### Reboot your device
 > Once the drivers have finished installing
