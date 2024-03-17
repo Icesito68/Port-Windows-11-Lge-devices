@@ -7,11 +7,9 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/uefi-mh2lm.img)
-  
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
 
-- [Msc boot image]()
+- [Msc boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
 
 ##### Flashing the msc boot image
