@@ -12,11 +12,11 @@
   
 - [Parted script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/parted)
   
-- [Recovery image]
+- [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link)
 
 ### Notes
 > [!WARNING]  
-> All your data will be erased! Back up any data now if needed!
+> All your data will be erased! Use Qfil to back up any data now if needed!
 > 
 > Do not run the same command twice unless specified.
 >  
