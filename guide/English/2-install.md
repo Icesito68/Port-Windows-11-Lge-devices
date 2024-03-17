@@ -92,7 +92,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
-## Preparing to boot Windows
+### Preparing to boot Windows
 
 #### Reboot back to Android
 Simply reboot your device
