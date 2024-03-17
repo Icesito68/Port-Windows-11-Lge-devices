@@ -37,10 +37,18 @@
   
 
 ## Installing Windows
+> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 
+```cmd
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+```
 
-#### Installing drivers
+> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
+##### Installing drivers
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+
+> Enter the drive letter of `Windows`, which should be X, then press enter
   
 ##### Create the Windows bootloader files
 ```cmd
