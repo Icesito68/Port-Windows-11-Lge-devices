@@ -13,10 +13,11 @@
 
 ## Setting up mass storage mode
 > Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" in boot.
+
+##### Enter msc mode
+> Reboot toxit EDL, so your PC will recognize the G8x as a disk
 >
-> Exit EDL, so your PC will recognize the G8x as a disk
->
-> If you have engineering abl_a you can instead go to fastboot and run `fastboot boot LGG8XMassStorageBoot.img`
+> Or if you have engineering abl_a you can instead go to fastboot and run `fastboot boot LGG8XMassStorageBoot.img`
 
 ##### Formatting ESP
 > In Windows Explorer (under My PC), identify ESP. It should be called EFI and be about 500MB.
