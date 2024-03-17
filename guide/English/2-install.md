@@ -1,9 +1,18 @@
 <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On To LG G8x">
 
 
-# Windows on the Lg G8x
+## Windows on the Lg G8x
 
-# Install Windows
+## Install Windows
+
+## Prerequisites
+- [Windows on ARM image](https://worproject.com/esd)
+  
+- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Uefi-V1.0.0/lg-flashlmdd-V1.img)
+  
+- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
+  
+- [Msc script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/msc.sh)
 
 # Previous
 
