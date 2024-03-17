@@ -44,13 +44,15 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 </details>
 
 ## Comencemos
+- [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Estado.md)
+  
 - [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-Particiones.md)
 
 - [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Desinstalar.md)
 
 
 ## Extras
-- [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Estado.md)
+- [Dualboot setup](guide/Español/dualboot-es.md)
 
 - [Actualizar drivers](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Actualizar.md)
 
