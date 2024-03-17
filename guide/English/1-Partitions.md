@@ -1,9 +1,16 @@
  <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 
-# Windows on the Lg G8x
+## Windows on the LG G8x
 
-This steps are necesary to make the partitions where we are going to install Windows.
+## Partitioning your device
+
+### Prerequisites
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+  
+- [Parted script]()
+  
+- [Recovery image]
 
 ## Notes:
 > **Warning** if you delete any partitions via diskpart later on or now windows will send a UFS command that gets misinterpreted which erase all your UFS.
