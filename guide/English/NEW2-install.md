@@ -13,8 +13,6 @@
 
 - [Msc boot image]()
 
-- [TWRP]() (should already be installed)
-
 
 ##### Flashing the msc boot image
 > Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" in boot.
@@ -58,7 +56,10 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
+## Preparing to boot Windows
 
+##### Reboot back to Android
+Simply reboot your device
 
 ## [Last step: let's setup dualboot](dualboot.md)
 
