@@ -56,7 +56,7 @@ resizepart 30
 XXGB
 ```
 
-## Create partitions
+### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
 #### Creating the ESP partition
