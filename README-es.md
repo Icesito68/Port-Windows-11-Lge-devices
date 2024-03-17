@@ -2,7 +2,7 @@
 
 # Windows en el Lg G8x 
 
-## Choose your language
+## Language
 [English](README.md) | **Español**
 
 ## ⚠️ Advertencia
