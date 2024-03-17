@@ -21,13 +21,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - Have the [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link) installed
 
-- ~~Have a [Windows 11 Arm ISO](https://uupdump.net/)~~
-
-- ~~Have the script of [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (This file belongs to [Gus33000](https://github.com/gus33000 ) )~~ or have image for enter in [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
-
-- Have the [Lg G8x Uefi](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
-
-- ~~Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2303.00) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)~~
+- image for enter in [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
 
 </summary>
 </details>
