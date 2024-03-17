@@ -7,6 +7,8 @@
 
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
+- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
   
 - [Parted script]()
   
@@ -14,7 +16,7 @@
 
 ### Notes
 > [!WARNING]  
-> All your data will be erased! Back up now if needed.
+> All your data will be erased! Back up any data now if needed!
 > 
 > Do not run the same command twice unless specified.
 >  
