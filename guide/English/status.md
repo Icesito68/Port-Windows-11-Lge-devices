@@ -22,7 +22,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] FM
 - [x] GPU
 - [x] LTE ```Parcial support, mobile data no work```
-- [x] SD
+- [ ] SD `Very unstable`
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```If you try to charge the phone it will stop working```
