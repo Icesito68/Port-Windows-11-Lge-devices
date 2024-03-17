@@ -60,7 +60,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 
 
 
-# [We are almost done, now let's setup dualboot](/guide/English/dualboot.md)
+## [Last step: let's setup dualboot](dualboot.md)
 
 
 
