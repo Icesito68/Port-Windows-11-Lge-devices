@@ -15,7 +15,7 @@
 > Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" in boot.
 
 ##### Enter msc mode
-> Reboot toxit EDL, so your PC will recognize the G8x as a disk
+> Reboot to exit EDL, so your PC will recognize the G8x as a disk
 >
 > Or if you have engineering abl_a you can instead go to fastboot and run `fastboot boot LGG8XMassStorageBoot.img`
 
