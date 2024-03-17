@@ -1,7 +1,9 @@
-<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
-
+ <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 # Running Windows on the LG G8x
+
+## Choose your language
+**English** | [Español](README-es.md)
 
 ## ⚠️ Warning
 
@@ -11,12 +13,51 @@ This project is in an early stage, all the files here have been contributed by o
 
 **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
+<details>
+<summary><a><strong>Prerequisites</strong></a></summary>
 
-## Choose your language
+- MAKE A BACKUP OF ALL PARTITIONS WITH QFIL!
 
-- [English](language/english.md)
+- Have the bootloader unlocked
 
-- [Español](language/español.md)
+- Have the [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link) installed
+
+- Have downloaded the [Platform Tools](https://developer.android.com/studio/releases/platform-tools?hl=es-419)
+
+- Have a [Windows 11 Arm ISO](https://uupdump.net/)
+
+- Have [Parted](https://www.mediafire.com/file/s9bjano4pezphou/parted/file) (This file belongs to [Gus33000](https://github.com/gus33000))
+
+- Have the script of [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (This file belongs to [Gus33000](https://github.com/gus33000 ) ) or have image for enter in [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
+
+- Have the [Lg G8x Uefi](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
+
+- Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2303.00) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)
+
+- [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) for necessary backups and flashes
+
+- [Drivers for Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) needed for Qfil to work 
+
+- [Firehose for g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) needed for Qfil to work
+
+</summary>
+</details>
+
+
+## Get Started
+- [Installation instructions](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/1-Partitions.md)
+
+- [Uninstall instructions](guide/english/uninstall.md)
+
+
+## Miscellaneous
+- [Dualboot setup](/guide/English/dualboot.md)
+  
+- [Project Status](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Status.md)
+
+- [Driver updating instructions](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Update.md)
+
+- [Extra](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/Extra.md)
 
 ## Contributors
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
@@ -25,3 +66,12 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="ArturoGC06" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76574534?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArtturoGC06)
+
+
+
+
+
+
+
+
+
