@@ -24,21 +24,21 @@ This project is in an early stage, all the files here have been contributed by o
 
 - Have downloaded the [Platform Tools](https://developer.android.com/studio/releases/platform-tools?hl=es-419)
 
-- Have a [Windows 11 Arm ISO](https://uupdump.net/)
+- ~~Have a [Windows 11 Arm ISO](https://uupdump.net/)~~
 
-- Have [Parted](https://www.mediafire.com/file/s9bjano4pezphou/parted/file) (This file belongs to [Gus33000](https://github.com/gus33000))
+- ~~Have [Parted](https://www.mediafire.com/file/s9bjano4pezphou/parted/file) (This file belongs to [Gus33000](https://github.com/gus33000))~~
 
-- Have the script of [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (This file belongs to [Gus33000](https://github.com/gus33000 ) ) or have image for enter in [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
+- ~~Have the script of [Mass Storage Mode](https://www.mediafire.com/file/m4yecbhu9fifjy7/msc.sh/file) (This file belongs to [Gus33000](https://github.com/gus33000 ) )~~ or have image for enter in [Mass Storage Mode](https://drive.google.com/file/d/13aqm-Hq4mWz5xDn9jSNxFSoF-qkEmUBx/view?usp=share_link) (thanks Molly for share it)
 
 - Have the [Lg G8x Uefi](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
 
-- Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2303.00) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)
+- ~~Have the [Drivers](https://github.com/Icesito68/LGE-SM8150-Drivers/releases/tag/2303.00) and the [Installer](https://github.com/WOA-Project/DriverUpdater/releases/)~~
 
-- [Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) for necessary backups and flashes
+- ~~[Qfil](https://drive.google.com/file/d/1P7uGjIirqGRdkwlxgKf_idepDlv6_u-q/view?usp=sharing) for necessary backups and flashes~~
 
-- [Drivers for Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) needed for Qfil to work 
+- ~~[Drivers for Qfil](https://drive.google.com/file/d/1sPJm1RuSoVX9JMEs-Gx8xNuEDadO6rpj/view?usp=sharing) needed for Qfil to work~~
 
-- [Firehose for g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) needed for Qfil to work
+- ~~[Firehose for g8x](https://drive.google.com/file/d/1ekI_d2-P9GdoakkSgk2hK1WHbQLIPlTQ/view?usp=sharing) needed for Qfil to work~~
 
 </summary>
 </details>
