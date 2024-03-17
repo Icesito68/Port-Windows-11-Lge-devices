@@ -8,7 +8,7 @@
 ## Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Uefi-V1.0.0/lg-flashlmdd-V1.img)
+- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/uefi-mh2lm.img)
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
   
