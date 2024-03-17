@@ -2,11 +2,10 @@
 
 # Windows en el Lg G8x 
 
-## Language
+## Idioma
 [English](README.md) | **Español**
 
 ## ⚠️ Advertencia
-
 No somos responsables de dispositivos bloqueados, particiones de recuperación eliminadas, trabajadores de xiaomi muertos,(Los de Lg están bien no se preocupen) tarjetas microSD muertas, pmics muertos, ram muertas, circuitos integrados muertos, cpus muertos, cualquier travesura de xiaomi/poco,(Lg no hace nada nunca) gatos o perros muertos, guerras nucleares o que te despidan porque olvidaste volver a iniciar Android para la alarma.
 
 Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han sido aportados por otros usuarios, aquí encontrará una guía con los archivos que logramos obtener. Este es un proceso delicado, hazlo bajo tu propio riesgo y sigue todos los pasos cuidadosamente.
@@ -52,13 +51,13 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 
 ## Extras
-- [Dualboot setup](guide/Español/dualboot-es.md)
+- [Preparando el dual boot](guide/Español/dualboot-es.md)
 
 - [Actualizar drivers](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Actualizar.md)
 
 - [Extras](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Extra.md)
 
-## Contributors
+## Contribuidores
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
 [<img alt="Renegade Project Discord Members" src="https://images.weserv.nl/?url=https://cdn.discordapp.com/icons/736563593058713690/68f67bfddf4390b11effc99917b16338.webp?size=256&w=45&fit=cover&mask=circle&maxage=7d" />](https://discord.gg/XXBWfag)
 [<img alt="gus33000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/3755345?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/gus33000)
