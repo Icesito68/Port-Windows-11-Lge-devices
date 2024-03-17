@@ -10,31 +10,28 @@
 - [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/uefi-mh2lm.img)
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
-  
-- [Msc script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/msc.sh)
+
+- [Msc boot image]()
 
 - [TWRP]() (should already be installed)
 
 
-##### Previous
+##### Flashing the msc boot image
+> Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" in boot.
+>
+> Exit EDL, so your PC will recognize the G8x as a disk
+>
+> If you have engineering abl_a you can instead go to fastboot and run `fastboot boot LGG8XMassStorageBoot.img`
 
-- Make a backup of the Boot_a and Boot_b partitions with Qfil
+##### Formatting ESP
+> In Windows Explorer (under My PC), identify ESP. It should be called EFI and be about 500MB.
+> 
+> Right click and fast format it as Fat32
 
-- With Qfil, flash "LGG8XMassStorageBoot.img" in boot.
-  
-- Then exit EDL, so your PC will recognize the G8x as a disk
-
-- If you have engineering abl_a you can instead go to fastboot and run
-  ```sh
-  fastboot boot LGG8XMassStorageBoot.img
-  ```
-
-##### Format Esp and Win
-> On windows explorer identify ESP, it should be called EFI and have about 500MB
-> right click and fast format it as Fat32
-> Same with Win, it shouldnt have a name but be about the amount of GB you chose
-> right click and fast format it as NTFS
-  
+##### Formatting ESP
+> Do the same for Windows. It shouldn't have a name but the size should be similar to the size you chose Windows to be.
+>
+> Right click and fast format it as NTFS
 
 ## Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
