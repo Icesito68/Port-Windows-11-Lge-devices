@@ -13,11 +13,10 @@
   
 - [Msc script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/msc.sh)
 
-  
 - [TWRP]() (should already be installed)
 
 
-# Previous
+##### Previous
 
 - Make a backup of the Boot_a and Boot_b partitions with Qfil
 
@@ -30,8 +29,7 @@
   fastboot boot LGG8XMassStorageBoot.img
   ```
 
-# Format Esp and Win
-
+##### Format Esp and Win
 > On windows explorer identify ESP, it should be called EFI and have about 500MB
 > right click and fast format it as Fat32
 > Same with Win, it shouldnt have a name but be about the amount of GB you chose
