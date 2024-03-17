@@ -24,43 +24,25 @@
 >
 > DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat]([https://t.me/WinOnF1](https://t.me/winong8x)).
 
-#### Boot TWRP 3.6.0 on the device
+##### Boot TWRP 3.6.0 on the device
 
-
-#### Unmount all partitions
+##### Unmount all partitions
 Go to mount on TWRP and unmount all partitions
 
-## Move parted to the device
+##### Preparing for partitioning
+> Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb push parted /cache
+adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
 
-## Start ADB shell
-```cmd
-adb shell
-```
-
-# Create partitions
-#### Give parted necessary permissions
-```sh
-chmod 755 /cache/parted
-```
-
-
-### Start parted
-```sh
-./parted /dev/block/sda
-```
-
-### Delete the `grow` partition
->To make sure that partition 31 is grow you can use
->  `print all`
+##### Delete the `grow` partition
+> To make sure that partition 31 is grow you can use `print all`
 ```sh
 rm 31
 ```
 
 ### Resize the `userdata` partition
->To make sure that partition 30 is userdata you can use
+> To make sure that partition 30 is userdata you can use
 >  `print all`
 ```sh
 resizepart 30
