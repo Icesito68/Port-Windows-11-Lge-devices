@@ -1,7 +1,7 @@
  <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 
-## Running Windows on the LG G8x
+# Running Windows on the LG G8x
 
 ## Partitioning your device
 
@@ -26,27 +26,27 @@
 >
 > DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat]([https://t.me/WinOnF1](https://t.me/winong8x)).
 
-##### Flash TWRP or Orange Fox
+#### Flash TWRP or Orange Fox
 > Use the provided files and flash them in Magisk, then reboot to recovery
 >
 > If you have Lineage recovery, you can also use that instead
 
-##### Unmount all partitions
+#### Unmount all partitions
 Go to mount in TWRP/Orange Fox and unmount all partitions
 
-##### Preparing for partitioning
+#### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
 ```cmd
 adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
 
-##### Delete the `grow` partition
+#### Delete the `grow` partition
 > To make sure that partition 31 is grow, run `print all`
 ```sh
 rm 31
 ```
 
-##### Resize the `userdata` partition
+#### Resize the `userdata` partition
 > To make sure that partition 30 is userdata, run `print all`
 ```sh
 resizepart 30
@@ -56,36 +56,36 @@ resizepart 30
 XXGB
 ```
 
-### Create partitions
+## Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
-##### Creating the ESP partition
+#### Creating the ESP partition
 > We want this partition to have 500MB, replace XX with the "END" of userdata
 ```sh
 mkpart esp fat32 XXGB XX.5GB
 ```
 
-##### Making ESP bootable
+#### Making ESP bootable
 > Replace "$" with your ESP partition number, usually 30 or 31
 ```cmd
 set $ esp on
 ```
 
-##### Creating the Windows partition
+#### Creating the Windows partition
 > Replace XX with the "END" of ESP, this storage will be for windows
 ```sh
 mkpart win ntfs XX.5GB 126GB
 ```
 
-##### Exit parted
+#### Exit parted
 ```sh
 quit
 ```
 
-##### Format all data
+#### Format all data
 Go to the Wipe menu in TWRP, press Format Data, then type `yes`.
 
-##### Check if Android still starts
+#### Check if Android still starts
 Just reboot the phone and see if Android still boots.
 
 ## [Next step: Installing Windows](2-install.md)
