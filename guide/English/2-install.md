@@ -58,12 +58,12 @@ exit
 ```
 
 #### Formatting ESP
-> In Windows Explorer (under My PC), identify ESP, (Y volume). It should be called EFI and be about 500MB.
+> In Windows Explorer (under My PC) locate the Y: ESP drive
 > 
 > Right click and fast format it as Fat32
 
 #### Formatting ESP
-> Do the same for Windows, which should be marked with the letter X. It shouldn't have a name but the size should be similar to the size you chose Windows to be.
+> In Windows Explorer (under My PC) locate the X: Windows drive
 >
 > Right click and fast format it as NTFS
 
