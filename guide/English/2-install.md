@@ -19,17 +19,55 @@
 >
 > Or if you have engineering abl_a you can instead go to fastboot and run `fastboot boot LGG8XMassStorageBoot.img`
 
+### Diskpart
+```cmd
+diskpart
+```
+
+#### List device volumes
+> To print a list of all the connected volumes, run
+```cmd
+list volume
+```
+
+#### Select Windows volume
+> Replace $ with the actual number of the Windows volume
+```cmd
+select volume $
+```
+
+#### Assign letter to Windows
+```cmd
+assign letter x
+```
+
+#### Select ESP volume
+> Replace $ with the actual number of the ESP volume
+```cmd
+select volume $
+```
+
+#### Assign letter to ESP
+```cmd
+assign letter y
+```
+
+### Exit diskpart
+```cmd
+exit
+```
+
 #### Formatting ESP
-> In Windows Explorer (under My PC), identify ESP. It should be called EFI and be about 500MB.
+> In Windows Explorer (under My PC), identify ESP, (Y volume). It should be called EFI and be about 500MB.
 > 
 > Right click and fast format it as Fat32
 
 #### Formatting ESP
-> Do the same for Windows. It shouldn't have a name but the size should be similar to the size you chose Windows to be.
+> Do the same for Windows, which should be marked with the letter X. It shouldn't have a name but the size should be similar to the size you chose Windows to be.
 >
 > Right click and fast format it as NTFS
 
-## Installing Windows
+### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 
 ```cmd
