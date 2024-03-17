@@ -36,18 +36,17 @@ adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cac
 ```
 
 ##### Delete the `grow` partition
-> To make sure that partition 31 is grow you can use `print all`
+> To make sure that partition 31 is grow, run `print all`
 ```sh
 rm 31
 ```
 
-### Resize the `userdata` partition
-> To make sure that partition 30 is userdata you can use
->  `print all`
+##### Resize the `userdata` partition
+> To make sure that partition 30 is userdata, run `print all`
 ```sh
 resizepart 30
 ```
->Replace XX with the amount of storage you want for Userdata, the rest will be for Windows
+> Replace XX with the amount of storage you want for userdata, the rest will be for Windows
 ```sh
 XXGB
 ```
@@ -55,32 +54,39 @@ XXGB
 ### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
-#### For all models:
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
->We want this partition to have 500MB, replace XX with the "END" of userdata
+##### Creating the ESP partition
+> We want this partition to have 500MB, replace XX with the "END" of userdata
 ```sh
 mkpart esp fat32 XXGB XX.5GB
 ```
 
-- Create the main partition where Windows will be installed to
+##### Creating the Windows partition
 > Replace XX with the "END" of ESP, this storage will be for windows
 ```sh
 mkpart win ntfs XX.5GB 126GB
 ```
 
-### Exit parted
+##### Exit parted
 ```sh
 quit
 ```
 
-### Reboot to TWRP
+##### Format all data
+Go to the Wipe menu in TWRP, press Format Data, then type `yes`.
 
-- Format Android data
-Go to Wipe menu and press Format Data, then type `yes`.
-
-### Check if Android still starts
+##### Check if Android still starts
 Just reboot the phone and see if Android still boots.
 
+## [Next step: Installing Windows](guide/English/NEW2-install.md)
 
-## [Next step: Installing Windows](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/English/2-Instalation.md)
+
+
+
+
+
+
+
+
+
+
+
