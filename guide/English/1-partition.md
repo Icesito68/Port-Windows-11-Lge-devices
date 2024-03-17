@@ -26,10 +26,10 @@
 >
 > DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat]([https://t.me/WinOnF1](https://t.me/winong8x)).
 
-##### Flash TWRP 3.6.0
+##### Flash TWRP or Orange Fox
 > Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot flash recovery path\to\recovery.img reboot recovery
 ```
 
 ##### Unmount all partitions
