@@ -44,15 +44,23 @@ exit
 ```
 
 ## Installing Drivers
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
+> Enter the drive letter of `Windows`, which should be X, then press enter
 
-  
+##### Reboot your device
+> Once the drivers have finished installing
+
+## Finished!
 
 ## Method 2: online method
 > This does not require a PC, but may fail if driver signatures change
 
 ##### Installing drivers
 > Download and extract the drivers archibe onto your device, then run the `OnlineUpdater.cmd` file
+
+##### Reboot your device
+> Once the drivers have finished installing
 
 ## Finished!
 
