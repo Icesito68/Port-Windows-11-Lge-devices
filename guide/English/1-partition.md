@@ -27,13 +27,10 @@
 > DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat]([https://t.me/WinOnF1](https://t.me/winong8x)).
 
 ##### Flash TWRP or Orange Fox
-> Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
-```cmd
-fastboot flash recovery path\to\recovery.img reboot recovery
-```
+> Use the provided files and flash them in Magisk, then reboot to recovery
 
 ##### Unmount all partitions
-Go to mount on TWRP and unmount all partitions
+Go to mount in TWRP/Orange Fox and unmount all partitions
 
 ##### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
