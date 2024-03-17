@@ -83,7 +83,7 @@ Go to the Wipe menu in TWRP, press Format Data, then type `yes`.
 ##### Check if Android still starts
 Just reboot the phone and see if Android still boots.
 
-## [Next step: Installing Windows](guide/English/2-install.md)
+## [Next step: Installing Windows](2-install.md)
 
 
 
