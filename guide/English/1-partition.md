@@ -28,6 +28,8 @@
 
 ##### Flash TWRP or Orange Fox
 > Use the provided files and flash them in Magisk, then reboot to recovery
+>
+> If you have Lineage recovery, you can also use that instead
 
 ##### Unmount all partitions
 Go to mount in TWRP/Orange Fox and unmount all partitions
