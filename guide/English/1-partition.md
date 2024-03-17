@@ -66,6 +66,12 @@ XXGB
 mkpart esp fat32 XXGB XX.5GB
 ```
 
+##### Making ESP bootable
+> Replace "$" with your ESP partition number, usually 30 or 31
+```cmd
+set $ esp on
+```
+
 ##### Creating the Windows partition
 > Replace XX with the "END" of ESP, this storage will be for windows
 ```sh
