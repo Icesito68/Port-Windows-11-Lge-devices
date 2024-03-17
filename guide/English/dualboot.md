@@ -6,9 +6,11 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- [```UEFI image```](https://github.com/edk2-porting/edk2-msm/releases/tag/2302.1-mh2lm)
-- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
-- [```StA Installer```]() MAKE A RELEASE AND LINK IT PLS
+- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/uefi-mh2lm.img)
+  
+- [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+  
+- [StA Installer]() 
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please do that first
