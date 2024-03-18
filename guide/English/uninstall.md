@@ -5,7 +5,14 @@
 ## Uninstalling Windows
 
 ### Prerequisites
-- 
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
+- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil) (to restore partitions)
+  
+- [Parted script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/parted)
+  
+- [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link)
+  
 - Boot backups
 
 
