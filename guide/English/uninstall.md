@@ -15,12 +15,11 @@
   
 - Boot backups
 
-
 #### Restore boot backups
 > Go to EDL mode and use Qfil to restore your boot_a and boot_b backups
 
 #### Boot TWRP on the device
-> Use the Magisk module linked above if you din't already have it installed
+> Use the Magisk module linked above if you don't already have it installed
 
 #### Unmount all partitions
 > Go to mount in TWRP and unmount all partitions
