@@ -2,7 +2,8 @@
 
 # Running Windows on LG G8x
 
-### [Software For Windows Arm](https://armrepo.ver.lt/)
+### Software For Windows Arm
+[Link here](https://armrepo.ver.lt/)
 
 ### List of supported apps/games
 > This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
