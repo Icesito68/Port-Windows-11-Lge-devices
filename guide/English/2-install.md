@@ -18,7 +18,7 @@
 ### Boot to EDL
 > Turn off your phone, then hold **volume down + power**. Keep holding while it displays the unlocked bootloader warning.
 >
-> After this warning the screen will turn dark. Release the power button (keep holding the volume down button!), and start simultaneously holding the **volume up** button, until you see QDLoader 9008 in the Device Manager on your PC 
+> After this warning the screen will turn dark. Release the power button (keep holding the volume down button!), and start rapidly pressing the **volume up** button like your life depends on it, until you see QDLoader 9008 in the Device Manager on your PC 
 
 ### Setting up mass storage mode
 > Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" into boot.
