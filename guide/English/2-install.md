@@ -42,7 +42,7 @@ sel dis $
 lis par
 ```
 
-##### Selecting the Windows partition
+#### Selecting the Windows partition
 > Replace $ with the partition number of Windows (should be 32)
 ```cmd
 sel par $
@@ -58,7 +58,7 @@ format quick fs=ntfs label="WINMH2LM"
 assign letter x
 ```
 
-##### Selecting the ESP partition
+#### Selecting the ESP partition
 > Replace $ with the partition number of ESP (should be 31)
 ```cmd
 sel par $
