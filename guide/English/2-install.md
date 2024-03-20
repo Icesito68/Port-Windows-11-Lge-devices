@@ -38,7 +38,7 @@ select volume $
 
 #### Formatting Windows drive
 ```cmd
-format quick fs=ntfs label="Windows"
+format quick fs=ntfs label="WINMH2LM"
 ```
 
 #### Add letter to Windows
@@ -54,7 +54,7 @@ select volume $
 
 #### Formatting ESP drive
 ```cmd
-format quick fs=fat32 label="System"
+format quick fs=fat32 label="ESPMH2LM"
 ```
 
 #### Add letter to ESP
