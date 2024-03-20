@@ -66,7 +66,7 @@ mkpart esp fat32 XXGB XX.5GB
 ```
 
 #### Making ESP bootable
-> Replace "$" with your ESP partition number, which should be 30
+> Replace "$" with your ESP partition number, which should be 31
 ```cmd
 set $ esp on
 ```
