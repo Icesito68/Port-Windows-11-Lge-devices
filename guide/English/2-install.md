@@ -14,7 +14,7 @@
 - [Msc boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
 ### Setting up mass storage mode
-> Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" in boot.
+> Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" into boot.
 
 #### Enter msc mode
 > Reboot to exit EDL, so your PC will recognize the G8x as a disk
