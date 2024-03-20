@@ -24,16 +24,28 @@
 diskpart
 ```
 
-#### List device volumes
-> To print a list of all the connected volumes, run
+#### Finding your phone
+> This will list all connected disks
 ```cmd
-list volume
+lis dis
 ```
 
-#### Select Windows volume
-> Replace $ with the actual number of the Windows volume (you can identify this by its size, as it will be identical to the size you picked Windows to be)
+#### Selecting your phone
+> Replace $ with the actual number of your phone (its size should be around 128GB)
 ```cmd
-select volume $
+sel dis $
+```
+
+#### Listing your phone's partitions
+> This will list your device's partitions
+```cmd
+lis par
+```
+
+##### Selecting the Windows partition
+> Replace $ with the partition number of Windows (should be XX)
+```cmd
+sel par $
 ```
 
 #### Formatting Windows drive
@@ -46,10 +58,10 @@ format quick fs=ntfs label="WINMH2LM"
 assign letter x
 ```
 
-#### Select ESP volume
-> Replace $ with the actual number of the ESP volume (it's the volume that is 500MB)
+##### Selecting the ESP partition
+> Replace $ with the partition number of ESP (should be XX)
 ```cmd
-select volume $
+sel par $
 ```
 
 #### Formatting ESP drive
@@ -60,6 +72,11 @@ format quick fs=fat32 label="ESPMH2LM"
 #### Add letter to ESP
 ```cmd
 assign letter y
+```
+
+#### Exit diskpart
+```cmd
+exit
 ```
 
 ### Installing Windows
