@@ -15,12 +15,14 @@
 
 - - [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link)
 
-### Reboot to recovery
+#### Reboot to recovery
 > Reboot to recovery. Reinstall the Magisk recovery module if needed
 
-#### Enter msc mode
-> Download the msc.sh script and put it in the platform tools folder, then run
-
+#### Running the msc script
+> Put msc.sh in the platform-tools folder, then run:
+```cmd
+adb push msc.sh / && adb shell sh msc.sh
+```
 
 ### Diskpart
 > [!WARNING]
