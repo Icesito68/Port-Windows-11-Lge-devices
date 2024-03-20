@@ -31,40 +31,36 @@ list volume
 ```
 
 #### Select Windows volume
-> Replace $ with the actual number of the Windows volume
+> Replace $ with the actual number of the Windows volume (you can identify this by its size, as it will be identical to the size you picked Windows to be)
 ```cmd
 select volume $
 ```
 
-#### Assign letter to Windows
+#### Formatting Windows drive
+```cmd
+format quick fs=ntfs label="Windows"
+```
+
+#### Add letter to Windows
 ```cmd
 assign letter x
 ```
 
 #### Select ESP volume
-> Replace $ with the actual number of the ESP volume
+> Replace $ with the actual number of the ESP volume (it's the volume that is 500MB)
 ```cmd
 select volume $
 ```
 
-#### Assign letter to ESP
+#### Formatting ESP drive
+```cmd
+format quick fs=fat32 label="System"
+```
+
+#### Add letter to ESP
 ```cmd
 assign letter y
 ```
-
-### Exit diskpart
-```cmd
-exit
-```
-#### Formatting Windows drive
-> In Windows Explorer (under My PC) locate the X: Windows drive
->
-> Right click and fast format it as NTFS
-
-#### Formatting ESP drive
-> In Windows Explorer (under My PC) locate the Y: ESP drive
-> 
-> Right click and fast format it as Fat32
 
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
