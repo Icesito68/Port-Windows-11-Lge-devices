@@ -15,6 +15,9 @@
 
 - [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil) 
 
+### Boot to EDL
+> Turn off your phone, then hold **volume down + power** to boot to EDL mode. Keel holding while it displays the unlocked bootloader warning, and release it when the screen tufns dark.
+
 ### Setting up mass storage mode
 > Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" into boot.
 
