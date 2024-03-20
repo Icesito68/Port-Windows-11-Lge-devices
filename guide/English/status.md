@@ -14,14 +14,14 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging ```Charge more or less at 7w``
+- [x] Charging ```DEAD slow```
 - [x] Wireless Charging 
 - [x] Screen
 - [ ] Dual Screen For Lg
 - [ ] MHL
 - [ ] FM
 - [x] GPU
-- [x] LTE ```Parcial support, mobile data no work```
+- [ ] LTE 
 - [ ] SD `Very unstable`
 - [x] Touchscreen
 - [x] UFS
@@ -36,4 +36,24 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Light sensor
 - [ ] Magnetometer
 - [ ] Proximity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
