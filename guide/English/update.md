@@ -9,12 +9,23 @@
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
 
+- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil) (to back up partitions)
+
 - [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
 ## Method 1: offline method
 > This requires you to use a PC. Use Method 2 if you don't have one on hand.
 
+### Reboot to download mode
+- Hold **volume down** + **power**.
+- Keep holding as it displays the unlocked bootloader warning.
+- After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
+- While holding the **volume down** button, press the **volume up** button.
 
+#### Setting up mass storage mode
+```cmd
+fastboot boot LGG8XMassStorageBoot.img
+```
 
 ### Diskpart
 ```cmd
