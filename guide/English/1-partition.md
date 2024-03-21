@@ -62,13 +62,8 @@
 - Right click on **laf_a** and press **Erase**.
 - Do the same thing for **laf_b**
 
-
-
-
-
-
-
-
+#### Reboot your phone
+> Hold **power** to reboot back to Android
 
 #### Flash TWRP or Orange Fox
 > Use the provided files and flash them in Magisk, then reboot to recovery
