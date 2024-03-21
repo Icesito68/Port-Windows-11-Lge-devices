@@ -6,7 +6,7 @@
 - Open **Device Manager** on your PC
 - With the phone turned off, hold **volume down + power**.
 - Keep holding as it displays the unlocked bootloader warning.
-- After the screen turns dark, release the **power** button while continueing to hold the **volume up** button.
+- After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
 - While holding the **volume button**, start rapidly pressing the **volume up** button.
 - Keep doing this until you see **QDLoader 9008** or **QUSB_BULK** in the Device Manager on your PC.
 - If the device has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue to the next step.
@@ -15,7 +15,10 @@
 > Use Qfil to make a backup of the laf partition, then clear it
 
 ### Reboot to download mode
-> Hold **volume down** + **power** until the device is in fastboot mode
+- Hold **volume down** + **power**.
+- Keep holding as it displays the unlocked bootloader warning.
+- After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
+- While holding the **volume button**, press the **volume up** button.
 
 ### Setting up mass storage mode
 ```cmd
