@@ -10,19 +10,19 @@ Beta. La mayoría del hardware funciona, pero aún quedan cosas
 #### Características
 
 - [x] Audio
-- [x] Porcentaje De La Batería  ```Muchas veces no se sincroniza bien del todo```
+- [x] Porcentaje De La Batería
 - [x] Bluetooth
 - [x] Brillo
 - [ ] Cámara
-- [x] Carga ```Carga más o menos a 7w```
+- [x] Carga ```Carga lenta```
 - [x] Carga Inalámbrica
 - [x] Pantalla
 - [ ] Pantalla Secundaria De Lg
 - [ ] MHL
 - [ ] FM
 - [x] GPU
-- [x] LTE ```Soporte Parcial, los datos no funcionan```
-- [x] SD
+- [ ] LTE
+- [ ] SD ```Muy inestable```
 - [x] Pantalla Táctil
 - [x] UFS
 - [x] USB ```Si intentas cargar el móvil dejará de funcionar```

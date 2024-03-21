@@ -43,19 +43,19 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 </details>
 
 ## Comencemos
-- [Estado del proyecto](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Estado.md)
+- [Estado del proyecto](guide/Español/Estado.md)
   
-- [Instrucciones para instalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/1-Particiones.md)
+- [Instrucciones para instalar](guide/Español/1-Particiones.md)
 
-- [Instrucciones para desinstalar](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Desinstalar.md)
+- [Instrucciones para desinstalar](guide/Español/Desinstalar.md)
 
 
 ## Extras
-- [Preparando el dual boot](guide/Español/dualboot-es.md)
+- [Preparando el dual boot](guide/Español/dualboot.md)
 
-- [Actualizar drivers](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Actualizar.md)
+- [Actualizar drivers](guide/Español/Actualizar.md)
 
-- [Extras](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/Extra.md)
+- [Extras](guide/Español/Extra.md)
 
 ## Contribuidores
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)

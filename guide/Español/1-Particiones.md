@@ -1,43 +1,81 @@
- <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 en ejecución en un LG G8x">
 
+# Ejecutando Windows en el LG G8x
 
-# Windows en el Lg G8x
+## Particionando tu dispositivo
 
-Estos pasos son necesarios para crear las particiones donde pondremos Windows
+### Requisitos previos
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-## Notas:
-> **Advertencia** si eliminas alguna partición via diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda la ufs
-- Estos comandos han sido testeados.
-- Ignora las advertencias de `udevadm`
-- No ejecutes el mismo comando dos veces
-- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/winong8x)
+- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil) (para hacer copias de seguridad de las particiones)
+  
+- [Script de Parted](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
+  
+- [TWRP o Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
 
-#### Arranca en el TWRP del dispositivo
+### Notas
+> [!ADVERTENCIA]  
+> 
+> No ejecutes el mismo comando dos veces a menos que se especifique.
+>  
+> No ejecutes todos los comandos a la vez, ¡ejecútalos en orden!
+>
+> ¡PUEDES DAÑAR TU DISPOSITIVO CON LOS COMANDOS A CONTINUACIÓN SI LOS HACES MAL!
+>
+> ¡NO REINICIES TU TELÉFONO! Si crees que cometiste un error, pide ayuda en el [chat de Telegram]([https://t.me/WinOnF1](https://t.me/winong8x)).
 
+### Haciendo copias de seguridad de las particiones
+> Si no haces esto y algo sale mal, estarás por tu cuenta
 
-#### Desmonta todas las particiones
-Ve a mount en TWRP y desmonta todas las particiones
+#### Arrancar en EDL
+- Abre **Administrador de dispositivos** en tu PC
+- Con el teléfono apagado, mantén presionado **bajar volumen** + **encendido**.
+- Sigue manteniendo mientras muestra el aviso de bootloader desbloqueado.
+- Después de que la pantalla se ponga oscura, suelta el botón de **encendido** mientras continúas manteniendo presionado el botón de **bajar volumen**.
+- Mientras mantienes presionado el botón de **bajar volumen**, comienza a presionar rápidamente el botón de **subir volumen**.
+- Continúa haciendo esto hasta que veas **QDLoader 9008** o **QUSB_BULK** en el Administrador de dispositivos en tu PC.
+- Si el dispositivo tiene un triángulo de advertencia amarillo ⚠️, necesitas instalar los controladores de fastboot antes de poder continuar con el siguiente paso.
 
-## Pasar las herramientas necesarias:
+#### Reinciar al modo de descarga
+- Mantén presionado **bajar volumen** + **encendido**.
+- Sigue manteniendo mientras muestra el aviso de bootloader desbloqueado.
+- Después de que la pantalla se ponga oscura, suelta el botón de **encendido** mientras continúas manteniendo presionado el botón de **subir volumen**.
+- Mientras mantienes presionado el botón de **bajar volumen**, presiona el botón de **subir volumen**.
+
+#### Configurar Qfil
+- Abre **Qfil**.
+- En "Seleccionar tipo de compilación", selecciona **compilación plana**.
+- En "Seleccionar programador", selecciona el firehose descargado.
+- En Configuración, asegúrate de que el "Tipo de dispositivo" esté configurado en **UFS**.
+
+#### Haciendo copias de seguridad de tus particiones
+- En **Qfil**, selecciona Herramientas > Administrador de particiones y haz clic en **Aceptar**.
+- Haz clic derecho en **laf_a** > **Administrar datos de partición** y presiona **Leer datos**.
+- Haz lo mismo para **laf_b**, **boot_a**, **boot_b**, **abl_a**, **abl_b**, **aop_a**, **aop_b**, **xbl_a**, **xbl_b**, **ftc**, **fsg**, **fsc**, **modemst1**, **modemst2**, **modem_a**, **modem_b**
+
+> [!Nota]
+> Esto hará copias de seguridad de tus particiones en `C:\usuarios\nombre\AppData\roaming\qualcomm\qfil\comportno\`. Puedes restaurarlas más tarde con la función **Cargar imagen**.
+
+#### Borrando la partición `laf`
+- En **Qfil**, selecciona Herramientas > Administrador de particiones y haz clic en **Aceptar**.
+- Haz clic derecho en **laf_a** > **Administrar datos de partición** y presiona **Borrar**.
+- Haz lo mismo para **laf_b**
+
+#### Reiniciar tu teléfono
+> Mantén presionado **encendido** para reiniciar de nuevo a Android
+
+#### Flashear TWRP u Orange Fox
+> Usa los archivos proporcionados y flashealos en Magisk, luego reinicia en modo de recuperación
+>
+> Si tienes Lineage recovery, también puedes usar eso en su lugar
+
+#### Desmontar todas las particiones
+Ve a montar en TWRP/Orange Fox y desmonta todas las particiones
+
+#### Preparando para particionar
+> Descarga el archivo parted y muévelo a la carpeta platform-tools, luego ejecuta
 ```cmd
-adb push parted /cache
-```
-
-## Iniciar ADB shell
-```cmd
-adb shell
-```
-
-# Crear particiones
-#### Darle los permisos necesarios a la herramienta
-```sh
-chmod 775 /cache/parted
-```
-
-
-### Iniciar parted
-```sh
-./parted /dev/block/sda
+adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
 
 ### Borrar la partición `grow` 
@@ -87,7 +125,6 @@ quit
 adb shell
 ```
 
-
 - Formatea data
 Ve a Wipe en TWRP y presiona Format Data, 
 después escribe `yes`.
@@ -95,5 +132,4 @@ después escribe `yes`.
 ### Comprueba si android inicia
 Solo reinicia el teléfono y comprueba si Android inicia
 
-
-## [Siguiente paso: Instalar Windows](https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/main/guide/Espa%C3%B1ol/2-Instalaci%C3%B3n.md)
+## [Siguiente paso: Instalar Windows](2-Instalacion.md)

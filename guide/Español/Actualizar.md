@@ -1,47 +1,71 @@
-#### con Qfil pon la imagen de Mass Storage Mode en boot_a y boot_b
+<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 ejecutándose en el LG G8x">
 
-> Cuando el Lg G8X sea detectado como disco
+# Ejecutando Windows en el LG G8x
 
+## Actualización de controladores
+
+### Requisitos previos
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+  
+- [Controladores](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
+
+- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
+
+- [Imagen de arranque de almacenamiento masivo](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
+
+## Método 1: método sin conexión
+> Esto requiere el uso de una PC. Utiliza el Método 2 si no tienes una a mano.
+
+### Reiniciar al modo de descarga
+- Mantén presionados los botones **volumen abajo** + **encendido**.
+- Sigue presionando mientras muestra la advertencia de bootloader desbloqueado.
+- Después de que la pantalla se oscurezca, suelta el botón **encendido** mientras continúas manteniendo presionado el botón **volumen arriba**.
+- Mientras mantienes presionado el botón **volumen abajo**, presiona el botón **volumen arriba**.
+
+#### Configuración del modo de almacenamiento masivo
+```cmd
+fastboot boot LGG8XMassStorageBoot.img
+```
+
+
+### Diskpart
 ```cmd
 diskpart
 ```
 
-
-### Asigna `x` al volumen de Windows
-
-#### Seleciona el volumen de Windows del teléfono
-> use `list volume` to find it, it's usually the one before the last
-
+#### Seleccionar el volumen de Windows del teléfono
+> Usa `list volume` para encontrarlo, debería llamarse **WINMH2LM**
 ```diskpart
-select volume <number>
+select volume <número>
 ```
 
-#### Agsigna la letra x
+#### Asignar la letra x
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
-### Salir de diskpart:
+#### Salir de diskpart:
 ```diskpart
 exit
 ```
 
+### Instalación de Drivers
+> Descomprime el archivo de controladores, luego abre el archivo `OfflineUpdater.cmd`
 
-# Instalar los Drivers
+> Ingresa la letra de unidad de `Windows`, que debería ser X, luego presiona enter
 
-> reemplaza `<mh2lmdriversfolder>` por la localización de la carpeta de los drivers
+#### Reinicia tu dispositivo
+> Una vez que los controladores hayan terminado de instalarse
 
-> abre un cmd como administrador
+## ¡Terminado!
 
+## Método 2: método online
+> Esto no requiere una PC, pero puede fallar si las firmas de los controladores cambian
 
-```cmd
-.\driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
-```
+#### Instalación de controladores
+> Descarga y extrae el archivo de controladores en tu LG G8x mientras estás en Windows, luego ejecuta el archivo OnlineUpdater.cmd
 
+#### Reinicia tu dispositivo
+> Una vez que los controladores hayan terminado de instalarse
 
-### Arranca con la imagen de aranque de Windows #####
-
-  
-  
-
-# ¡Terminado!
+## ¡Terminado!
