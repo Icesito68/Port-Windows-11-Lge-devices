@@ -11,17 +11,20 @@
 - Keep doing this until you see **QDLoader 9008** or **QUSB_BULK** in the Device Manager on your PC.
 - If the device has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue to the next step.
 
-### Clearing the laf partition
-- Open **Qfil**.
-- In "Select Build Type", select **flat build**.
-- In "Select programmer", select the downloaded firehose.
-- In Configuration, make sure the "Device Type" is set to **UFS**.
-
 ### Reboot to download mode
 - Hold **volume down** + **power**.
 - Keep holding as it displays the unlocked bootloader warning.
 - After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
 - While holding the **volume down** button, press the **volume up** button.
+
+### Setting up Qfil
+- Open **Qfil**.
+- In "Select Build Type", select **flat build**.
+- In "Select programmer", select the downloaded firehose.
+- In Configuration, make sure the "Device Type" is set to **UFS**.
+
+### Clearing the laf partition
+- In **Qfil**, select Tools > Partition manager
 
 ### Setting up mass storage mode
 ```cmd
