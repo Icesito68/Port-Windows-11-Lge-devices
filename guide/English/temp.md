@@ -15,7 +15,7 @@
 > Use Qfil to make a backup of the laf partition, then clear it
 
 ### Reboot to download mode
-> No idea what steps LOL
+> Hold **volume down** + **power** until the device is in fastboot mode
 
 ### Setting up mass storage mode
 ```cmd
