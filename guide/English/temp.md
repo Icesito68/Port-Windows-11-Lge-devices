@@ -11,16 +11,34 @@
 - Keep doing this until you see QDLoader 9008 or QUSB_BULK in the Device Manager on your PC.
 - If the device has a yellow warning triangle, you need to install fastboot drivers before you can continue to the next step.
 
+### Clearing the laf partition
+> Use Qfil to make a backup of the laf partition, then clear it
+
+### Reboot to download mode
+> No idea what steps LOL
+
 ### Setting up mass storage mode
-> Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" into boot.
+```cmd
+fastboot boot LGG8XMassStorageBoot.img
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Reboot to recovery
 > Reboot to recovery. Reinstall the Magisk recovery module if needed.
-
-#### Enter msc mode
-> Reboot to exit EDL, so your PC will recognize the G8x as a disk
-
-> Or if you have engineering abl_a you can instead go to fastboot and run `fastboot boot LGG8XMassStorageBoot.img`
 
 
 
