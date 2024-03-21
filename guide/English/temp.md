@@ -4,7 +4,7 @@
   
 ### Boot to EDL
 - Open **Device Manager** on your PC
-- With the phone turned off, hold **volume down + power**.
+- With the phone turned off, hold **volume down** + **power**.
 - Keep holding as it displays the unlocked bootloader warning.
 - After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
 - While holding the **volume button**, start rapidly pressing the **volume up** button.
