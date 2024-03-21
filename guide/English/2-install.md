@@ -11,17 +11,17 @@
 
 - [Parted script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/parted)
 
-- [Msc script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.sh)
-
 - [TWRP or Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
 
-#### Reboot to recovery
-> Reboot to recovery. Reinstall the Magisk recovery module if needed
+### Reboot to download mode
+- Hold **volume down** + **power**.
+- Keep holding as it displays the unlocked bootloader warning.
+- After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
+- While holding the **volume down** button, press the **volume up** button.
 
-#### Running the msc script
-> Put msc.sh in the platform-tools folder, then run:
+#### Setting up mass storage mode
 ```cmd
-adb push msc.sh / && adb shell sh msc.sh
+fastboot boot LGG8XMassStorageBoot.img
 ```
 
 ### Diskpart
@@ -86,6 +86,9 @@ assign letter y
 ```cmd
 exit
 ```
+
+### Reboot to recovery
+> Reboot to recovery. Reinstall the Magisk recovery module if needed
 
 #### Running parted
 ```cmd
