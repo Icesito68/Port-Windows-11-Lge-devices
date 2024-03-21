@@ -12,7 +12,10 @@
 - If the device has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue to the next step.
 
 ### Clearing the laf partition
-> Use Qfil to make a backup of the laf partition, then clear it
+- Open **Qfil**.
+- In "Select Build Type", select **flat build**.
+- In "Select programmer", select the downloaded firehose.
+- In Configuration, make sure the "Device Type" is set to **UFS**.
 
 ### Reboot to download mode
 - Hold **volume down** + **power**.
