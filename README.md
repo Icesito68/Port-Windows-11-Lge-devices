@@ -3,7 +3,7 @@
 # Running Windows on the LG G8x
 
 ## Choose your language
-**English** | [Español](README-es.md)
+**English** | ~~[Español](README-es.md)~~
 
 ## ⚠️ Warning
 We are not responsible for bricked devices, deleted recovery partitions, dead xiaomi workers (LG ones are ok, don't worry) dead microSD cards, dead pmics, dead ram, dead ics, dead cpus, any xiaomi/poco mischief, (LG never does anything) dead cats or dogs, nuclear wars or getting fired because you forgot to reboot android for the alarm.
