@@ -27,7 +27,9 @@
 - In **Qfil**, select Tools > Partition manager, and click **Ok**
 - Right click on **laf_a** and press **read**. Then press **erase**.
 - Do the same thing for **laf_b**
-- 
+
+> [!Note]
+> This will back up your **laf_a** and **laf_b** partitions to `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\`. You can restore them later with the **Load Image** function.
 
 ### Setting up mass storage mode
 ```cmd
@@ -41,8 +43,7 @@ fastboot boot LGG8XMassStorageBoot.img
 
 
 
-> [!Note]
-> This will back up your **laf_a** and **laf_b** partitions to `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\`
+
 
 
 
