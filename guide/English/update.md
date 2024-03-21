@@ -9,18 +9,12 @@
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
 
-- [Msc boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
+- [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
 ## Method 1: offline method
-> This requires you to use a PC
+> This requires you to use a PC. Use Method 2 if you don't have one on hand.
 
-### Setting up mass storage mode
-> Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" in boot.
 
-#### Enter msc mode
-> Reboot to exit EDL, so your PC will recognize the G8x as a disk
->
-> Or if you have engineering abl_a you can instead go to fastboot and run `fastboot boot LGG8XMassStorageBoot.img`
 
 ### Diskpart
 ```cmd
@@ -28,7 +22,7 @@ diskpart
 ```
 
 #### Select the phone's Windows volume
-> Use `list volume` to find it, it's usually the one before the last
+> Use `list volume` to find it, it should be named **WINMH2LM**
 ```diskpart
 select volume <number>
 ```
