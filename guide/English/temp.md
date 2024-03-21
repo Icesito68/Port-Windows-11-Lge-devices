@@ -3,9 +3,12 @@
 - [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
   
 ### Boot to EDL
-> Turn off your phone, then hold **volume down + power**. Keep holding while it displays the unlocked bootloader warning.
-
-> After this warning the screen will turn dark. Release the power button (keep holding the volume down button!), and start rapidly pressing the **volume up** button like your life depends on it, until you see QDLoader 9008 in the Device Manager on your PC
+- Open Device Manager on your PC
+- With the phone turned off, hold **volume down + power**.
+- Keep holding as it displays the unlocked bootloader warning.
+- After the screen turns dark, release the **power** button while continueing to hold the **volume up** button.
+- While holding the **volume button**, start rapidly pressing the **volume up** button
+- Keep doing this until you see QDLoader 9008 or QUSB BULK in the Device Manager on your PC
 
 ### Setting up mass storage mode
 > Make a backup of the Boot_a and Boot_b partitions with Qfil, then flash "LGG8XMassStorageBoot.img" into boot.
