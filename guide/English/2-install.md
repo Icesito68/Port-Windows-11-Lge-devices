@@ -13,7 +13,7 @@
 
 - [Msc script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.sh)
 
-- [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) or [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link)
+- [TWRP or Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
 
 #### Reboot to recovery
 > Reboot to recovery. Reinstall the Magisk recovery module if needed
