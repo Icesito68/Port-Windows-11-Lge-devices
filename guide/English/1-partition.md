@@ -51,7 +51,7 @@
 
 #### Backing up your partitions
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
-- Right click on **laf_a** and press **Read Data**.
+- Right click on **laf_a** > **Manage Partition Data** and press **Read Data**.
 - Do the same thing for **laf_b**, **boot_a**, **boot_b**, **abl_a**, **abl_b**, **aop_a**, **aop_b**, **xbl_a**, **xbl_b**, **ftc**, **fsg**, **fsc**, **modemst1**, **modemst2**, **modem_a**, **modem_b**
 
 > [!Note]
@@ -59,7 +59,7 @@
 
 #### Clearing the laf partition
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
-- Right click on **laf_a** and press **Erase**.
+- Right click on **laf_a** > **Manage Partition Data** and press **Erase**.
 - Do the same thing for **laf_b**
 
 #### Reboot your phone
