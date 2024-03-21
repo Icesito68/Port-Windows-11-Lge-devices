@@ -2,6 +2,8 @@
 
 # Windows en el Lg G8x 
 
+[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winong8x)
+
 ## Idioma
 [English](README.md) | **Español**
 

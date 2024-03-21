@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 en ejecución en un LG G8x">
+<img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows en el Lg G8x">
 
-# Ejecutando Windows en el LG G8x
+# Windows en el Lg G8x
 
 ## Instalando Windows
 
