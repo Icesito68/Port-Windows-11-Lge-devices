@@ -13,6 +13,8 @@
 
 - [TWRP or Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
 
+- [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
+
 ### Reboot to download mode
 - Hold **volume down** + **power**.
 - Keep holding as it displays the unlocked bootloader warning.
