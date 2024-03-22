@@ -14,7 +14,7 @@
 - [TWRP o Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
 
 ### Notas
-> [!ADVERTENCIA]  
+> [!Warning]  
 > 
 > No ejecutes el mismo comando dos veces a menos que se especifique.
 >  
@@ -79,19 +79,19 @@ adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cac
 ```
 
 ### Borrar la partición `grow` 
->Para asegurarte de que la partición 31 es grow puedes usar
+> Para asegurarte de que la partición 31 es grow puedes usar
 >  `print all`
 ```sh
 rm 31
 ```
 
 ### Redimensionar la partición `userdata` 
->Para asegurarte de que la partición 30 es Userdata puedes usar
+> Para asegurarte de que la partición 30 es Userdata puedes usar
 >  `print all`
 ```sh
 resizepart 30
 ```
->Reemplaza XX con la cantidad de almacenamiento que quieras para Userdata, el resto se usara en Windows
+> Reemplaza XX con la cantidad de almacenamiento que quieras para Userdata, el resto se usara en Windows
 ```sh
 XXGB
 ```
