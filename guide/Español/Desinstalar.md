@@ -11,7 +11,7 @@
   
 - [Script de Parted](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/parted)
   
-- [TWRP](https://drive.google.com/file/d/1xc9DhNX5bj8PZKOZc09N5QhtOGamKD9o/view?usp=share_link) o [Orange Fox](https://drive.google.com/file/d/1EGyZOBfdfZ_4nAqD7FURbJ-Bvq3E4ckO/view?usp=share_link)
+- [TWRP o Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
   
 - Copias de seguridad del boot
 
