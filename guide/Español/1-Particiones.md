@@ -22,7 +22,7 @@
 >
 > ¡PUEDES DAÑAR TU DISPOSITIVO CON LOS COMANDOS A CONTINUACIÓN SI LOS HACES MAL!
 >
-> ¡NO REINICIES TU TELÉFONO! Si crees que cometiste un error, pide ayuda en el [chat de Telegram]([https://t.me/WinOnF1](https://t.me/winong8x)).
+> ¡NO REINICIES TU TELÉFONO! Si crees que cometiste un error, pide ayuda en el [chat de Telegram](https://t.me/winong8x).
 
 ### Haciendo copias de seguridad de las particiones
 > Si no haces esto y algo sale mal, estarás por tu cuenta
