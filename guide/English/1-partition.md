@@ -1,6 +1,5 @@
  <img align="right" src="https://github.com/Icesito68/Port-Windows-11-Lg-G8x/blob/Lg-G8x/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
-
 # Running Windows on the LG G8x
 
 ## Partitioning your device
@@ -73,45 +72,52 @@
 #### Unmount all partitions
 Go to mount in TWRP/Orange Fox and unmount all partitions
 
-#### Preparing for partitioning
+### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
 ```cmd
 adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
 
-#### Delete the `grow` partition
-> To make sure that partition 31 is grow, run `print all`
-```sh
-rm 31
+#### Printing the current partition table
+> Parted will print the list of partitions, **userdata** should be the last partition in the list.
+```cmd
+print
 ```
 
-#### Resize the `userdata` partition
-> To make sure that partition 30 is userdata, run `print all`
-```sh
-resizepart 30
-```
-> Replace XX with the amount of storage you want for userdata, the rest will be for Windows
-```sh
-XXGB
+#### Removing userdata
+> Replace **$** with the number of the **userdata** partition, which should be **30**
+> 
+> If you have a **grow** partition, remove it as well
+```cmd
+rm $
 ```
 
-### Create partitions
-> If you get any warning message telling you to ignore or cancel, just type i and enter
-
-#### Creating the ESP partition
-> We want this partition to have 500MB, replace XX with the "END" of userdata
-```sh
-mkpart esp fat32 XXGB XX.5GB
+#### Recreating userdata
+> Replace **19GB** with the former start value of **userdata** which we just deleted
+>
+> Replace **40GB** with the end value you want **userdata** to have
+```cmd
+mkpart userdata ext4 19GB 40GB
 ```
 
-#### Creating the Windows partition
-> Replace XX with the "END" of ESP, this storage will be for windows
-```sh
-mkpart win ntfs XX.5GB 126GB
+#### Creating ESP partition
+> Replace **40GB** with the end value of **userdata**
+>
+> Replace **40.5GB** with the value you used before, adding **0.5GB** to it
+```cmd
+mkpart esp fat32 40GB 40.5GB
+```
+
+#### Creating Windows partition
+> Replace **40.5GB** with the end value of **esp**
+>
+> Replace **123GB** with the end value of your disk, use `p free` to find it
+```cmd
+mkpart win ntfs 40.5GB 123GB
 ```
 
 #### Exit parted
-```sh
+```cmd
 quit
 ```
 
