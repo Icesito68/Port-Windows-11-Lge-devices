@@ -111,9 +111,9 @@ mkpart esp fat32 40GB 40.5GB
 #### Creating Windows partition
 > Replace **40.5GB** with the end value of **esp**
 >
-> Replace **123GB** with the end value of your disk, use `p free` to find it
+> Replace **126GB** with the end value of your disk, use `p free` to find it
 ```cmd
-mkpart win ntfs 40.5GB 123GB
+mkpart win ntfs 40.5GB 126GB
 ```
 
 #### Exit parted
