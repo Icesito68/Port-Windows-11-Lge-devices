@@ -39,7 +39,7 @@ lis dis
 ```
 
 #### Selecting your phone
-> Replace $ with the actual number of your phone (its size should be around 128GB)
+> Replace $ with the actual number of your phone (it should be the last one)
 ```cmd
 sel dis $
 ```
