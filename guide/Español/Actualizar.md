@@ -13,9 +13,6 @@
 
 - [Imagen de arranque de almacenamiento masivo](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
-## Método 1: método sin conexión
-> Esto requiere el uso de una PC. Utiliza el Método 2 si no tienes una a mano.
-
 ### Reiniciar al modo de descarga
 - Mantén presionados los botones **volumen abajo** + **encendido**.
 - Sigue presionando mientras muestra la advertencia de bootloader desbloqueado.
@@ -26,7 +23,6 @@
 ```cmd
 fastboot boot LGG8XMassStorageBoot.img
 ```
-
 
 ### Diskpart
 ```cmd
@@ -50,22 +46,20 @@ exit
 ```
 
 ### Instalación de Drivers
-> Descomprime el archivo de controladores, luego abre el archivo `OfflineUpdater.cmd`
+> Descomprime el archivo de controladores, luego abre el archivo **OfflineUpdater.cmd**
 
-> Ingresa la letra de unidad de `Windows`, que debería ser X, luego presiona enter
-
-#### Reinicia tu dispositivo
-> Una vez que los controladores hayan terminado de instalarse
-
-## ¡Terminado!
-
-## Método 2: método online
-> Esto no requiere una PC, pero puede fallar si las firmas de los controladores cambian
-
-#### Instalación de controladores
-> Descarga y extrae el archivo de controladores en tu LG G8x mientras estás en Windows, luego ejecuta el archivo OnlineUpdater.cmd
+> Ingresa la letra de unidad de **WINMH2LM**, que debería ser X, luego presiona enter
 
 #### Reinicia tu dispositivo
 > Una vez que los controladores hayan terminado de instalarse
 
 ## ¡Terminado!
+
+
+
+
+
+
+
+
+
