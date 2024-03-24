@@ -142,6 +142,21 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
+### Reboot to EDL
+- Open **Device Manager** on your PC
+- With the phone turned off, hold **volume down** + **power**.
+- Keep holding as it displays the unlocked bootloader warning.
+- After the screen turns dark, release the **power** button while continuing to hold the **volume down** button.
+- While holding the **volume down** button, start rapidly pressing the **volume up** button.
+- Keep doing this until you see **QDLoader 9008** or **QUSB_BULK** in the Device Manager on your PC.
+
+#### Flashing stock ABL
+> Or your IMEI won't work
+- In **Qfil**, select Tools > Partition manager, and click **Ok**.
+- Right click on **abl_a** > **Manage Partition Data** and press **Load Image**.
+- Select and flash the **abl_a** file in `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\`
+- Do the same thing for **abl_b**.
+
 #### Reboot back to Android
 Simply reboot your device
 
