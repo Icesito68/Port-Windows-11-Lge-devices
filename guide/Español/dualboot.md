@@ -5,9 +5,9 @@
 ## Dualbooting Android y Windows sin Problemas
 
 ### Requisitos Previos
-- [Imagen UEFI](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Scripts/uefi-mh2lm.img)
+- [Imagen UEFI](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/uefi-mh2lm.img)
   
-- [Aplicación WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [Aplicación WOA Helper](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Dualboot/woahelper.apk)
   
 - [Instalador StA](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Dualboot/StA_Installer_mh2lm.exe) 
 
