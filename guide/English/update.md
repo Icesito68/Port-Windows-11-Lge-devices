@@ -13,9 +13,6 @@
 
 - [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
-## Method 1: offline method
-> This requires you to use a PC. Use Method 2 if you don't have one on hand.
-
 ### Reboot to download mode
 - Hold **volume down** + **power**.
 - Keep holding as it displays the unlocked bootloader warning.
@@ -49,20 +46,9 @@ exit
 ```
 
 ### Installing Drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+> Unpack the driver archive, then open the **OfflineUpdater.cmd** file
 
-> Enter the drive letter of `Windows`, which should be X, then press enter
-
-#### Reboot your device
-> Once the drivers have finished installing
-
-## Finished!
-
-## Method 2: online method
-> This does not require a PC, but may fail if driver signatures change
-
-#### Installing drivers
-> Download and extract the drivers archive onto your LG G8x while in Windows, then run the `OnlineUpdater.cmd` file
+> Enter the drive letter of **WINMH2LM**, which should be X, then press enter
 
 #### Reboot your device
 > Once the drivers have finished installing
