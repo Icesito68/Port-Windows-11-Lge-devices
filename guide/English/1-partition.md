@@ -59,7 +59,7 @@
 > This will back up your partitions to `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\`. You can restore them later with the **Load Image** function.
 
 #### Flashing engineering ABL
-> Or we can't use fastboot
+> Or you can't use fastboot
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
 - Right click on **abl_a** > **Manage Partition Data** and press **Load Image**.
 - Select and flash the **engabl_ab.bin** file.
