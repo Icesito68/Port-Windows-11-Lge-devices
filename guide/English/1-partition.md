@@ -62,7 +62,7 @@
 > Or we can't use fastboot
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
 - Right click on **abl_a** > **Manage Partition Data** and press **Load Image**.
-- Select and flash the "engabl_ab.bin" file.
+- Select and flash the **engabl_ab.bin** file.
 - Do the same thing for **abl_b**.
 
 #### Reboot your phone
